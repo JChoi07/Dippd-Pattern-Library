@@ -1,0 +1,686 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+
+	<title>Dipp'd UI Elements</title>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;400;600&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Ubuntu+Mono:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/grids.css">
+</head>
+	
+<body>
+	<header>
+		<a href="index.html"><img class="dippd-logo" src="img/dippd-logo.png" alt="Dipped shop logo"></a>
+		
+		<div class="menu-wrap">
+			<input type="checkbox" class="toggler">
+				<div class="hamburger">
+					<div class="hamburger-line" id="top"></div>
+					<div class="hamburger-line" id="middle"></div>
+					<div class="hamburger-line" id="bottom"></div>
+				</div>
+					<nav class="hamburger-menu">
+						<h2>Menu</h2>
+						<a href=index.html>Pattern Library</a>
+						<a href=wireframes.html>Wireframes</a>
+						<a href=citations.html>Citations</a>
+						<div class="divider-line"></div>
+						<h2>Catalog</h2>
+						<a href=#basic-interactive-elements>Basic Interactive Elements</a>
+						<a href=#colors>Colors</a>
+						<a href=#typography>Typography</a>
+						<a href=#modular-pattern-elements>Modular Pattern Elements</a>
+						<div class="divider-line"></div>
+						<a href="#index.html"><img src="img/d-logo.png" alt="dripping d" class="d-logo"></a>
+					</nav>
+			</div>
+	</header>
+
+	<section class="hero">
+		<div class="container-1600">
+		<h1>Dipp'd Pattern Library</h1>
+		<p>Our brand blueprint for web 👋</p>
+		</div>
+	</section>
+
+	<div class="container-1600">
+	<div class="grid">
+
+		<aside class="left-quarter side-menu">
+			<h2>Menu</h2>
+			<a href=index.html>Pattern Library</a>
+			<a href=wireframes.html>Wireframes</a>
+			<a href=citations.html>Citations</a>
+			<div class="divider-line"></div>
+			<h2>Catalog</h2>
+			<a href=#basic-interactive-elements>Basic Interactive Elements</a>
+			<a href=#colors>Colors</a>
+			<a href=#typography>Typography</a>
+			<a href=#modular-pattern-elements>Modular Pattern Elements</a>
+		</aside>
+		
+		<div class="right-three-quarters">
+			<h2 id="basic-interactive-elements">Basic Interactive Elements</h2>
+			<div class="divider-line"></div>
+		
+		<section id="in-text-link">
+			<h3>In-text Link</h3>
+			<p>This is a <a href="#0">link</a> within a paragraph.</p>
+			
+			<div class="code-snippet">
+				<p>Code:</p>
+				<code>
+					&lt;p&gt;This is a &lt;a href="#0"&gt;link&lt;/a&gt; withing a paragraph.&lt;/p&gt;
+				</code>
+			</div>
+		</section>
+
+		<section id="cta-button">
+			<h3>CTA Button</h3>
+			<a href="#0"><button class="cta-button">Order Now</button></a>
+
+			<div class="code-snippet">
+				<p>Code:</p>
+				<code>
+					&lt;a href="#0"&gt;&lt;button class="cta-button"&gt;Order Now&lt;/button&gt;&lt;/a&gt;
+				</code>
+			</div>
+		</section>
+
+		<section id="form-buttons">
+			<h3>Form Submit and Reset Buttons</h3>
+			<button type="submit">Submit</button>
+			<button type="reset">Reset</button>
+
+			<div class="code-snippet">
+				<p>Code:</p>
+				<pre><code>&lt;button type="submit"&gt;Submit&lt;/button&gt;
+					&lt;button type="reset"&gt;Reset&lt;/button&gt;
+					</code>
+				</pre>
+			</div>
+		</section>
+
+		<section id="text-input-field-and-label">
+			<h3>Text Input Field and Label</h3>
+			<label>Address</label>
+			<input type="text" placeholder="987 North Pole">
+
+			<div class="code-snippet">
+			<p>Code:</p>
+			<code>
+				&lt;label for="address"&gt;Address&lt;/label&gt;<br>
+				&lt;input type="text" placeholder="Placeholder Text"&gt;
+			</code>
+		</div>
+		</section>
+		</div> <!-- end of basic interactive elements div -->
+
+
+		<div class="right-three-quarters">
+		<section id="color-swatches">
+			<h2 id="colors">Colors</h2>
+			<div class="divider-line"></div>
+			<div class="color-swatches-grid">
+				
+				<div class="color-swatch-heading primary-heading">
+					<h4>Primary</h4>
+				</div>
+				
+				<div class="color-swatch-item primary">
+					<div class="color-swatch-info gold">
+						<p>#FED10A</p>
+						<pre>R: 254<br>G: 209<br>B: 10</pre>
+					</div>
+				</div>
+
+				<div class="color-swatch-item primary">
+					<div class="color-swatch-info violet">
+						<p>#6339A1</p>
+						<pre>R: 99<br>G: 57<br>B: 161</pre>
+					</div>
+				</div>
+
+				<div class="color-swatch-item primary">
+					<div class="color-swatch-info white">
+						<p>#FFFFFF</p>
+						<pre>R: 255<br>G: 255<br>B: 255</pre>
+					</div>
+				</div>
+
+				<div class="color-swatch-item primary">
+					<div class="color-swatch-info black">
+						<p>#000000</p>
+						<pre>R: 0<br>G: 0<br>B: 0</pre>
+					</div>
+				</div>
+
+				<div class="color-swatch-heading information-heading">
+					<h4>Information Content Pages</h4>
+				</div>
+
+				<div class="color-swatch-item information-content-pages">
+					<div class="color-swatch-info teal">
+						<p>#2D6E62</p>
+						<pre>R: 45<br>G: 110<br>B: 98</pre>
+					</div>
+				</div>
+
+				<div class="color-swatch-item information-content-pages">
+					<div class="color-swatch-info teal-dark">
+						<p>#194940</p>
+						<pre>R: 25<br>G: 73<br>B: 64</pre>
+					</div>
+				</div>
+
+				<div class="color-swatch-item information-content-pages">
+					<div class="color-swatch-info teal-light">
+						<p>#55D1B9</p>
+						<pre>R: 85<br>G: 209<br>B: 185</pre>
+					</div>
+				</div>
+
+				<div class="color-swatch-item information-content-pages">
+					<div class="color-swatch-info teal-white">
+						<p>#D5F3ED</p>
+						<pre>R: 213<br>G: 243<br>B: 237</pre>
+					</div>
+				</div>
+
+				<div class="color-swatch-heading shop-content-heading">
+					<h4>Shop Content Pages</h4>
+				</div>
+
+				<div class="color-swatch-item shop-content-pages">
+					<div class="color-swatch-info burgundy">
+						<p>#B92575</p>
+						<pre>R: 185<br>G: 37<br>B: 117</pre>
+					</div>
+				</div>
+
+				<div class="color-swatch-item shop-content-pages">
+					<div class="color-swatch-info burgundy-dark">
+						<p>#84124F</p>
+						<pre>R: 132<br>G: 18<br>B: 79</pre>
+					</div>
+				</div>
+
+				<div class="color-swatch-item shop-content-pages">
+					<div class="color-swatch-info burgundy-light">
+						<p>#FFB6D0</p>
+						<pre>R: 255<br>G: 182<br>B: 208</pre>
+					</div>
+				</div>
+			</div> <!-- end of color-swatches-grid div -->
+		</section>
+		</div> <!-- end of colors div -->
+
+
+		<div class="right-three-quarters">
+			<h2 id="typography">Typography</h2>
+			<div class="divider-line"></div>
+
+		<section id="headings">
+			<h3 class="typography-heading">Headings</h3>
+			<h1>Montserrat. This is our heading typeface.</h1>
+				<div class="code-snippet">
+					<p>Code:</p>
+				<code>
+					&lt;h1&gt;H1 Heading&lt;/h1&gt;
+				</code>
+			</div>
+		
+			<h2>Still Montserrat, but smaller</h2>
+			<div class="code-snippet">
+				<p>Code:</p>
+				<code>
+				&lt;h2&gt;H2 Heading&lt;/h2&gt;
+				</code>
+			</div>
+
+			<h3>Montserrat is now at regular weight</h3>
+			<div class="code-snippet">
+				<p>Code:</p>
+				<code>
+				&lt;h3&gt;H3 Heading&lt;/h3&gt;
+				</code>
+			</div>
+
+			<h4>Regular weight Montserrat and smaller</h4>
+			<div class="code-snippet">
+				<p>Code:</p>
+				<code>
+				&lt;h4&gt;H4 Heading&lt;/h4&gt;
+				</code>
+			</div>
+
+			<h5>Kinda cute now, it's used for hierarchy in tight spaces such as the footer</h5>
+			<div class="code-snippet">
+				<p>Code:</p>
+				<code>
+				&lt;h5&gt;H5 Heading&lt;/h5&gt;
+				</code>
+			</div>
+		</section>
+
+		<section id="paragraph">
+			<h3 class="typography-heading">Paragraph</h3>
+			<p>This is Ubuntu Mono. Meet our typeface for our paragraphs.</p>
+			<div class="code-snippet">
+				<p>Code:</p>
+				<code>
+					&lt;p&gt;Enter paragraph here.&lt;/p&gt;
+				</code>
+			</div>
+		</section>
+
+		<section class="typography-heading" id="bullet-list">
+			<h3>Bullet List</h3>
+			<ul>
+				<li>Item no.1</li>
+				<li>Item no.2</li>
+				<li>Item no.3</li>
+			</ul>
+
+			<div class="code-snippet">
+				<p>Code:</p>
+				<code>
+					&lt;ul&gt;<br>
+					&lt;li&gt;Item no.1&lt;/li&gt;<br>
+					&lt;li&gt;Item no.2&lt;/li&gt;<br>
+					&lt;li&gt;Item no.3&lt;/li&gt;<br>
+					&lt;/ul&gt;
+				</code>
+			</div>
+
+		</section>
+
+		<section class="typography-heading" id="number-list">
+			<h3>Number List</h3>
+			<ol>
+				<li>Item Number One</li>
+				<li>Item Number Two</li>
+				<li>Item Number Three</li>
+			</ol>
+
+			<div class="code-snippet">
+				<p>Code:</p>
+				<code>
+					&lt;ol&gt;<br>
+					&lt;li&gt;Item Number One&lt;/li&gt;<br>
+					&lt;li&gt;Item Number Two&lt;/li&gt;<br>
+					&lt;li&gt;Item Number Three&lt;/li&gt;<br>
+					&lt;/ol&gt;
+				</code>
+			</div>
+		</section>
+		</div> <!-- end of typography div -->
+
+
+		<div class="right-three-quarters">
+			<h2 id="modular-pattern-elements">Modular Pattern Elements</h2>
+			<div class="divider-line"></div>
+
+		<section id="main-nav">
+			<h3>Main Navigation</h3>
+			<div class="main-nav">
+				<a href="#0"><img class="dippd-logo" src="img/dippd-logo.png" alt="dippd donuts branding logo"></a>
+				<nav class="main-nav-wrapper">
+					<a href="#0">Shop</a>
+					<a href="#0">About Us</a>
+					<a href="#0">
+					<div class="cart-icon"></div>
+					</a>
+				</nav>
+			</div>
+
+			<div class="code-snippet">
+				<p>Code:</p>
+				<code>
+					&lt;nav&gt;<br>
+					&lt;a href="index.html"&gt;&lt;img src="directory.png" alt="Dipp'd shop logo"&gt;&lt;/a&gt;<br>
+					&lt;a href="products.html"&gt;Shop&lt;/a&gt;<br>
+					&lt;a href="about.html"&gt;About Us&lt;/a&gt;<br>
+					&lt;a href="cart.html"&gt;<br>
+					&lt;div class="cart-icon"&gt;&lt;/div&gt;<br>
+					&lt;/a&gt;<br>
+					&lt;/nav&gt;
+				</code>
+			</div>
+		</section>
+
+		<h3>Product Grid Item</h3>
+		<section id="product-grid-item">
+
+			<div class="product-grid">
+
+				<figure class="product-grid__item">
+					<div class="product-grid__item-img-wrapper">
+						<img src="img/donut.png" alt="red berry donut with three stripes across the upper left corner">
+						
+						<div class="product-grid__item-details">
+							<p>Wine glaze topped with a sprinkle of rose petals.</p>
+							<p class="vegan">Vegan </p> + <p class="gluten-free"> Gluten-free</p>
+						</div> <!-- end of product-grid-item-details div -->
+					</div> <!-- end of product-grid__item-img-wrapper div -->
+
+					<figcaption class="product-grid__item-info">
+						<h4>Petals</h4>
+						<img src="img/vegan.png" alt="symbol to categorize this donut as vegan">
+						<img src="img/gluten-free.png" alt="symbol to categorize this donut as glueten-free">
+					</figcaption>
+					
+					<div class="product-grid__item-quantity">
+						<button type="quantity">-</button>
+						<input type="number" placeholder="0" id="input-quantity" name="quantity" min="0">
+						<button type="quantity">+</button>
+					</div>
+				</figure>
+
+				<figure class="product-grid__item">
+					<div class="product-grid__item-img-wrapper">
+						<img src="img/donut.png" alt="red berry donut with three stripes across the upper left corner">
+						
+						<div class="product-grid__item-details">
+							<p>Wine glaze topped with a sprinkle of rose petals.</p>
+							<p class="vegan">Vegan </p> + <p class="gluten-free"> Gluten-free</p>
+						</div> <!-- end of product-grid-item-details div -->
+					</div> <!-- end of product-grid__item-img-wrapper div -->
+
+					<figcaption class="product-grid__item-info">
+						<h4>Petals</h4>
+						<img src="img/vegan.png" alt="symbol to categorize this donut as vegan">
+						<img src="img/gluten-free.png" alt="symbol to categorize this donut as glueten-free">
+					</figcaption>
+					
+					<div class="product-grid__item-quantity">
+						<button type="quantity">-</button>
+						<input type="number" placeholder="0" id="input-quantity" name="quantity" min="0">
+						<button type="quantity">+</button>
+					</div>
+				</figure>
+
+				<figure class="product-grid__item">
+					<div class="product-grid__item-img-wrapper">
+						<img src="img/donut.png" alt="red berry donut with three stripes across the upper left corner">
+						
+						<div class="product-grid__item-details">
+							<p>Wine glaze topped with a sprinkle of rose petals.</p>
+							<p class="vegan">Vegan </p> + <p class="gluten-free"> Gluten-free</p>
+						</div> <!-- end of product-grid-item-details div -->
+					</div> <!-- end of product-grid__item-img-wrapper div -->
+
+					<figcaption class="product-grid__item-info">
+						<h4>Petals</h4>
+						<img src="img/vegan.png" alt="symbol to categorize this donut as vegan">
+						<img src="img/gluten-free.png" alt="symbol to categorize this donut as glueten-free">
+					</figcaption>
+					
+					<div class="product-grid__item-quantity">
+						<button type="quantity">-</button>
+						<input type="number" placeholder="0" id="input-quantity" name="quantity" min="0">
+						<button type="quantity">+</button>
+					</div>
+				</figure>
+			</div>
+
+			<div class="code-snippet">
+				<p>Code:</p>
+				<code>
+					&lt;figure class="product-grid__item"&gt;<br>
+					&lt;div class="product-grid__item-img-wrapper"&gt;<br>
+					&lt;img src="image-directory.png" alt="description of image"&gt;<br>
+					&lt;div class="product-grid__item-details"&gt;<br>
+					&lt;p&gt;product description text&lt;br&gt;&lt;p&gt; <br>class="vegan">Vegan&lt;.p&gt; + &lt;p class="gluten-free"&gt;<br>Gluten-free&lt;/p&gt;&lt;/p&gt;<br>
+					&lt;/div&gt; &lt;!-- end of product-grid-item-details div --&gt;<br>
+					&lt;/div&gt; &lt;!-- end of product-grid__item-img-wrapper div --&gt;<br>
+					<br>
+					&lt;figcaption class="product-grid__item-info"&gt;
+					&lt;h4&gt;product name&lt;/h4&gt;
+					&lt;img src="icon1-directory.png" alt="description of second icon"&gt;
+					&lt;img src="icon2-directory.png" alt="description of second icon"&gt;
+					&lt;/figcaption&gt;
+					<br>
+					&lt;div class="product-grid__item-quantity"&gt;<br>
+					&lt;button type="quantity"&gt;-&lt;/button&gt;<br>
+					&lt;input type="number" placeholder="0" id="quantity" name="quantity" min="0"&gt;<br>
+					&lt;button type="quantity"&gt;+&lt;/button&gt;<br>
+					&lt;/div&gt; &lt;!-- end of product-grid__item-quantity div --&gt; <br>
+					&lt;/figure&gt; &lt;!-- end of product-grid-item figure --&gt;
+				</code>
+			</div>
+		</section>
+
+		<section id="web-grid">
+			<h3>Website Grid Structure</h3>
+
+			<div class="grid-structure">
+				<div class="placeholder-content">1</div>
+				<div class="placeholder-content">2</div>
+				<div class="placeholder-content">3</div>
+				<div class="placeholder-content">4</div>
+				<div class="placeholder-content">5</div>
+				<div class="placeholder-content">6</div>
+				<div class="placeholder-content">7</div>
+				<div class="placeholder-content">8</div>
+				<div class="placeholder-content">9</div>
+				<div class="placeholder-content">10</div>
+				<div class="placeholder-content">11</div>
+				<div class="placeholder-content">12</div>
+			</div>
+			<p>12 column grid for flexible layouts<br><i>Overview structure</i></p>
+
+			<div class="code-snippet">
+				<p>Code:</p>
+				<code>
+					&lt;div class="grid-structure"&gt;<br>
+					&lt;div class="placeholder-content"&gt;1&lt;/div&gt;<br>
+					&lt;div class="placeholder-content"&gt;2&lt;/div&gt;<br>
+					&lt;div class="placeholder-content"&gt;3&lt;/div&gt;<br>
+					&lt;div class="placeholder-content"&gt;4&lt;/div&gt;<br>
+					&lt;div class="placeholder-content"&gt;5&lt;/div&gt;<br>
+					&lt;div class="placeholder-content"&gt;6&lt;/div&gt;<br>
+					&lt;div class="placeholder-content"&gt;7&lt;/div&gt;<br>
+					&lt;div class="placeholder-content"&gt;8&lt;/div&gt;<br>
+					&lt;div class="placeholder-content"&gt;9&lt;/div&gt;<br>
+					&lt;div class="placeholder-content"&gt;10&lt;/div&gt;<br>
+					&lt;div class="placeholder-content"&gt;11&lt;/div&gt;<br>
+					&lt;div class="placeholder-content"&gt;12&lt;/div&gt;<br>
+					&lt;/div&gt;
+				</code>
+			</div>
+
+			<div class="grid-structure">
+				<div class="placeholder-content half teal-light">50%</div>
+				<div class="placeholder-content half teal-light">50%</div>
+			</div>
+			<p>2 column grid<br><i>Use Cases: Cart Overview Page</i></p>
+
+			<div class="code-snippet">
+				<p>Code:</p>
+				<code>
+					&lt;div class="grid-structure"&gt;<br>
+					&lt;div class="placeholder-content half"&gt;1&lt;/div&gt;<br>
+					&lt;div class="placeholder-content half"&gt;2&lt;/div&gt;<br>
+					&lt;/div&gt;
+				</code>
+			</div>
+
+			<div class="grid-structure">
+				<div class="placeholder-content third gold">33%</div>
+				<div class="placeholder-content third gold">33%</div>
+				<div class="placeholder-content third gold">33%</div>
+			</div>
+			<p>3 column grid<br><i>Use Cases: Featured Products Section</i></p>
+
+			<div class="code-snippet">
+				<p>Code:</p>
+				<code>
+					&lt;div class="grid-structure"&gt;<br>
+					&lt;div class="placeholder-content third"&gt;1&lt;/div&gt;<br>
+					&lt;div class="placeholder-content third"&gt;2&lt;/div&gt;<br>
+					&lt;div class="placeholder-content third"&gt;3&lt;/div&gt;<br>
+					&lt;/div&gt;
+				</code>
+			</div>
+
+			<div class="grid-structure">
+				<div class="placeholder-content quarter burgundy">25%</div>
+				<div class="placeholder-content quarter burgundy">25%</div>
+				<div class="placeholder-content quarter burgundy">25%</div>
+				<div class="placeholder-content quarter burgundy">25%</div>
+			</div>
+			<p>4 column grid<br><i>Use Cases: Product Page</i></p>
+
+			<div class="code-snippet">
+				<p>Code:</p>
+				<code>
+					&lt;div class="grid-structure"&gt;<br>
+					&lt;div class="placeholder-content quarter"&gt;1&lt;/div&gt;<br>
+					&lt;div class="placeholder-content quarter"&gt;2&lt;/div&gt;<br>
+					&lt;div class="placeholder-content quarter"&gt;3&lt;/div&gt;<br>
+					&lt;div class="placeholder-content quarter"&gt;4&lt;/div&gt;<br>
+					&lt;/div&gt;
+				</code>
+			</div>
+		</section>
+
+		<section id="footer">
+			<h3>Footer</h3>
+			<footer>
+
+			<div class="container-footer-1600">
+				<div class="footer-wrapper-grid"> <!-- grid just to add another row with the ©copyright -->
+					<div class="footer-list-wrapper">
+
+						<div class="footer-icons"> 
+							<img class="dippd-logo" src="img/dippd-logo.png" alt="dippd donuts branding logo">
+							<a href="htttp://instagram.com">
+								<div class="footer-instagram-link">
+									<img src="img/instagram-icon.png" alt="Instagram logo that links to the dippd Instagram page">
+									<p>@dippd</p>
+								</div>
+							</a>
+						</div>
+
+						<div class="divider-line"></div>
+
+						<div class="footer-location">
+							<h5>Location</h5>
+							<p>Toronto, ON</p>
+						</div>
+
+						<div class="footer-hours">
+							<h5>Hours</h5>
+							<ul id="hours">
+								<li>Mon 10AM-5PM</li>
+								<li>Tue 10AM-5PM</li>
+								<li>Wed 10AM-5PM</li>
+								<li>Thu 10AM-5PM</li>
+								<li>Fri 10AM-5PM</li>
+								<li>Sat 10AM-5PM</li>
+								<li>Sun 10AM-5PM</li>
+							</ul>
+						</div>
+
+						<div class="footer-contact">
+							<h5>Contact</h5>
+							<ul id="contact">
+								<li><a href="#0">About Us</a></li>
+								<li><a href="#0">Email</a></li>
+								<li><a href="#0">Instagram</a></li>
+							</ul>
+						</div>
+
+						<div class="footer-help">
+							<h5>Help</h5>
+							<ul id="help">
+								<li><a href="#0">FAQ</a></li>
+								<li><a href="#0">Privacy</a></li>
+								<li><a href="#0">TOS</a></li>
+								<li><a href="#0">References</a></li>
+							</ul>
+						</div>
+					</div> <!-- end of footer-list-wrapper div -->
+
+					<div class="footer-copyright">
+						<p>© Copyright 2021 Dipp’d Donuts. All rights reserved. Website proudly created by E-Donuts Team</p>
+					</div>
+				</div> <!-- end of footer-wrapper-grid div -->
+			</div><!-- end of container-footer-1600 div -->
+			</footer>
+
+			<div class="code-snippet">
+				<p>Code:</p>
+				<code>
+					&lt;footer&gt;<br>
+					&lt;div class="container-footer-1600"&gt;<br>
+					&lt;div class="footer-wrapper-grid"&gt;<br>
+					&lt;div class="footer-list-wrapper"&gt;<br>
+					&lt;div class="footer-icons"&gt;<br>
+
+					&lt;img class="dippd-logo" src="img/dippd-logo.png" alt="dippd donuts branding logo"&gt;<br>
+					&lt;ref="htttp://instagram.com"&gt;<br>
+					&lt;src="img/instagram-icon.png" alt="Instagram logo that links to the dippd Instagram page"&gt;<br>
+					&lt;p&gt;@dippd&lt;/p&gt;<br>
+					&lt;/div&gt;<br>
+					&lt;/a&gt;<br>
+					&lt;/div&gt;<br>
+					<br>
+					&lt;div class="footer-location&gt;<br>
+					&lt;h5&gt;Locations&lt;/h5&gt;<br>
+					&lt;p&gt;Torongo, ON&lt;/p&gt;<br>
+					&lt;/div&gt;<br>
+					<br>
+					&lt;div class="footer-hours&gt;<br>
+					&lt;h5&gt;Hours&lt;/h5&gt;<br>
+					&lt;ul id="hours"&gt;<br>
+					&lt;li&gt;Mon 10AM-5PM&lt;/li&gt;<br>
+					&lt;li&gt;Tue 10AM-5PM&lt;/li&gt;<br>
+					&lt;li&gt;Wed 10AM-5PM&lt;/li&gt;<br>
+					&lt;li&gt;Thu 10AM-5PM&lt;/li&gt;<br>
+					&lt;li&gt;Fri 10AM-5PM&lt;/li&gt;<br>
+					&lt;li&gt;Sat 10AM-5PM&lt;/li&gt;<br>
+					&lt;li&gt;Sun 10AM-5PM&lt;/li&gt;<br>
+					&lt;/ul&gt;
+					&lt;/div&gt;<br>
+					<br>
+					&lt;div class="footer-contact&gt;<br>
+					&lt;h5 id="contact"&gt;Contacts&lt;/h5&gt;<br>
+					&lt;ul&gt;<br>
+					&lt;li&gt;&lt;a href="#0"&gt;About Us&lt;/a&gt;&lt;/li&gt;<br>
+					&lt;li&gt;&lt;a href="#0"&gt;Email&lt;/a&gt;&lt;/li&gt;<br>
+					&lt;li&gt;&lt;a href="#0"&gt;Instagram&lt;/a&gt;&lt;/li&gt;<br>
+					&lt;/ul&gt;<br>
+					&lt;/div&gt;<br>
+					<br>
+					&lt;div class="footer-help&gt;<br>
+					&lt;h5 id="help"&gt;Help&lt;/h5&gt;<br>
+					&lt;ul&gt;<br>
+					&lt;li&gt;&lt;a href="#0"&gt;FAQ&lt;/a&gt;&lt;/li&gt;<br>
+					&lt;li&gt;&lt;a href="#0"&gt;Privacy&lt;/a&gt;&lt;/li&gt;<br>
+					&lt;li&gt;&lt;a href="#0"&gt;TOS&lt;/a&gt;&lt;/li&gt;<br>
+					&lt;li&gt;&lt;a href="#0"&gt;References&lt;/a&gt;&lt;/li&gt;<br>
+					&lt;/ul&gt;<br>
+					&lt;/div&gt;<br>
+					&lt;/div&gt;&lt;!-- end of footer-list-wrapper div --&gt;<br>
+					<br>
+					&lt;div class="footer-copyright"&gt;<br>
+					&lt;p&gt;© Copyright 2021 Dipp’d Donuts. All rights reserved. Website proudly created by E-Donuts Team&lt;/p&gt;<br>
+					&lt;/div&gt;<br>
+					&lt;/div&gt;&lt;!-- end of footer-wrapper-grid div --&gt;<br>
+					&lt;/div&gt;&lt;!-- end of container-footer-1600 div --&gt;<br>
+
+					&lt;/footer&gt;
+				</code>
+			</div>
+		</section>
+	</div> <!-- end of modular elements div -->
+</div> <!-- end of grid div -->
+</div> <!-- end of container-1600 div -->
+</body>
+</html>
