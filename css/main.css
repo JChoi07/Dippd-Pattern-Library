@@ -162,12 +162,21 @@ button{
 	transition: transform .2s; /* Animation */
 }
 
+
 button[type]:hover{
 	transform:scale(1.05);
 }
 
+button[type]:focus{
+	outline:0rem;
+}
+
 button[type="reset"]{
 	background-color:#c6c6c6
+}
+
+button.cta-button:focus{
+	outline:0rem;
 }
 
 label{
@@ -185,6 +194,10 @@ input{
 	border-width: 1px;
 
 	box-shadow: .25rem .5rem;
+}
+
+input[type]:focus{
+	outline:0rem;
 }
 
 input[type="address"]::placeholder{
