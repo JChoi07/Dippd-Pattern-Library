@@ -468,6 +468,168 @@ button[type="quantity"]:hover{
 	background-color: rgba(0,0,0,0.7);
 }
 
+/* SOCIAL MEDIA CARD -------------------------------------------------------------------------------- */ 
+.social-media-card-grid{
+	display:grid;
+	grid-template-columns:repeat(3, 1fr);
+	margin-bottom:2.5rem;
+}
+
+.social-media-card-wrapper{
+	grid-column:1/2;
+	display:flex;
+	flex-direction:column;
+	box-shadow:1.5rem 1.5rem black;
+}
+
+.social-media-card-text{
+	height:clamp(5rem, 100vw, 8.5rem);
+	margin:0.938rem 0.938rem 0.938rem 0.938rem;
+}
+
+.social-media-card-text p{
+	font-size:1.313rem;
+	margin:0rem;
+}
+
+.social-media-card-footer{
+	/*display:flex;
+	flex-direction:row;*/
+	display:grid;
+	grid-template-columns: 4fr 0.5fr; 
+	background:#55D1B9;
+	align-items:center;
+}
+
+.social-media-card-tag{
+	grid-column:1/2;
+	margin-left:0.938rem;
+}
+
+.social-media-card-tag p{
+	grid-column:1/2;
+	font-size:1.313rem;
+}
+
+
+.social-media-card-logo{
+	grid-column:2/3;
+}
+
+/*Unused flexbox implementation; couldn't get the bottom bar to align*/
+/*.social-media-card-footer p{
+	font-size:1.313rem;
+	margin:0.938rem 0.938rem 0.938rem 0.938rem;
+}
+
+.social-media-card-footer img{
+	justify-content:end
+}*/
+
+
+/* CHECKOUT PRODUCT PREVIEW -------------------------------------------------------------------------------- */ 
+/*this aside menu's size can take up the whole right side for the real website*/
+.checkout-product-preview-menu{	
+	padding:2.5rem 6.25rem 2.5rem 2.5rem;
+	background:#6339A1;
+}
+
+.checkout-product-preview-wrapper{
+	display:flex;
+	flex-direction: column;
+	background:#6339A1;
+}
+
+.product-name-and-value p, .subtotal-name-and-value p, .shipping-name-and-value p{
+	font-family:montserrat, sans-serif;
+	font-size:1.125rem;
+	color:white;
+}
+
+.total-value p{
+	font-style:bold;
+}
+
+.total-value{
+
+}
+
+.bottom-checkout > .divider-line{
+	width:100%;
+}
+
+.product-name-and-value{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	margin-left:1.25rem;
+}
+
+.subtotal-name-and-value{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	margin-left:1.25rem;
+}
+
+.shipping-name-and-value{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	margin-left:1.25rem;
+}
+
+.total-value{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	margin-left:1.25rem;
+}
+
+
+
+
+/*text styling*/
+/*.checkout-product-preview-wrapper th{
+	color:white;
+	font-weight:lighter;
+	font-size:1.125rem;
+	text-align:left;
+}
+
+.checkout-product-preview-wrapper td{
+	color:white;
+	font-weight:lighter;
+	font-size:1.125rem;
+	text-align:right;
+}
+
+.checkout-product-preview-wrapper tbody > tr.subtotal-price > th{
+	padding-top:1.5rem;
+}
+
+.checkout-product-preview-wrapper tbody > .subtotal-price > td{
+	padding-top:1.5rem;
+}
+
+.checkout-product-preview-wrapper tfoot > .total-price > th{
+	color:white;
+	font-weight:bold;
+	font-size:1.125rem;
+	text-align:left;
+	padding-top:1.5rem;
+}
+
+.checkout-product-preview-wrapper tfoot > .total-price > td{
+	color:white;
+	font-weight:bold;
+	font-size:1.125rem;
+	text-align:right;
+	padding-left:5rem;
+	padding-top:1.5rem;
+}
+*/
+
 /* TYPOGRAPHY SECTION -------------------------------------------------------------------------------- */ 
 .typography-heading{
 	margin-top:1rem;
