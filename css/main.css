@@ -194,7 +194,7 @@ input{
 	border-color:#CCC;
 	border-width: 1px;
 
-	box-shadow: .25rem .5rem;
+	box-shadow: .5rem .5rem;
 }
 
 input[type]:focus{
@@ -479,7 +479,7 @@ button[type="quantity"]:hover{
 	grid-column:1/2;
 	display:flex;
 	flex-direction:column;
-	box-shadow:1.5rem 1.5rem black;
+	box-shadow:.5rem .5rem black;
 }
 
 .social-media-card-text{
@@ -586,8 +586,71 @@ button[type="quantity"]:hover{
 	margin-left:1.25rem;
 }
 
+/* FAQ ELEMENT -------------------------------------------------------------------------------- */ 
+
+.faq-element-grid{
+	display:grid;
+	grid-template-columns:repeat(9,1fr);
+}
+
+.faq-element-wrapper{
+	grid-column: 1/span 9;
+	position: relative;
+}
 
 
+.faq-element-wrapper .down-arrow{
+	color:#FED10A;
+	grid-column-start: 9;
+	padding-left:0;
+	font-family: ubuntu mono, monospace;
+}
+
+.faq-element-wrapper .up-arrow{
+	color:#11362F;
+	grid-column-start: 9;
+	padding-left:0;
+}
+
+.faq-question{
+	display:grid;
+	grid-template-columns:repeat(9,1fr);
+	background-color:#2D6E62;
+	box-shadow:0.5rem 0.5rem #11362F;
+}
+
+.faq-question p{
+	grid-column: 1/span 8;
+	font-size: 1.75rem;
+	color:white;
+	font-weight:500;
+	font-family:montserrat, sans-serif;
+	padding-left:1.75rem;
+}
+
+.faq-answer{
+	position:absolute;
+	background-color:#FED10A;
+	display:grid;
+	grid-template-columns:repeat(9,1fr);
+	opacity:0;
+	transition: 0.3s ease;
+	width:100%;
+	height:100%;
+	top:0;
+}
+
+.faq-answer p{
+	grid-column: 1/span 8;
+	font-size: 1.75rem;
+	color:black;
+	font-weight:400;
+	padding-left:1.75rem;
+}
+
+.faq-element-wrapper:hover .faq-answer{
+	opacity:1;
+}
 
 /*text styling*/
 /*.checkout-product-preview-wrapper th{
