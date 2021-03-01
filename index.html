@@ -1330,8 +1330,8 @@
 						&rcub;
 
 						.checkout-product-preview-wrapper&lcub;
-							display:flex;
-							flex-direction: column;
+							display:grid;
+							grid-template-columns: 1fr;
 							background:#6339A1;
 						&rcub;
 
@@ -1492,9 +1492,110 @@
 					</code></pre>
 				</div>
 			</div>
-
-
 		</section> <!-- end of FAQ element section -->
+
+		<section id="product-order-box-overview">
+			<h3>Product Order Box Overview</h3>
+			<p>Found on the My Box page, this product order box overview organism displays to the user their current order at Dipp'd Donuts with a representation of their box. 6 donuts are shown at a time with the counter below detailing how many boxes are part of the order. This organism allows users to click through and see what donuts they have, or return back to the shopping page.</p>
+			<div class="product-order-box-overview-wrapper"> <!-- placeholder for background color -->
+				<div class="product-order-box-overview-grid">
+					<div class="product-order-box-overview-return">
+						<p class="left-arrow"><a href="#0">◀</a></p>
+						<p><a href="#0">Return to shop</a></p>
+					</div>
+
+					<div class="product-order-box-overview-donuts">
+						<img src="img/donut-box-example-big.png" alt="An image of a donut box order in larger scale">
+					</div>
+
+					<div class="product-order-box-overview-counter">
+						<p class="left-arrow"><a href="#0">◀</a></p>
+						<p> 1 of 3 box(es)</p>
+						<p class="right-arrow"><a href="#0">▶</a></p>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="code-snippet">
+							<div class="html-code">
+								<p>HTML Code:</p>
+								<pre><code>&lt;div class="product-order-box-overview-grid"&gt;
+										&lt;div class="product-order-box-overview-return"&gt;
+											&lt;p class="left-arrow"&gt;&lt;a href="#0"&gt;◀&lt;/a&gt;&lt;/p&gt;
+											&lt;p>&lt;a href="#0"&gt;Return to shop&lt;/a>&lt;/p&gt;
+										&lt;/div>
+
+										&lt;div class="product-order-box-overview-donuts"&gt;
+											&lt;div class="product-order-box-overview-image"&gt;
+												&lt;img src="img/donut-box-example-big.png" alt="An image of a donut box order in larger scale"&gt;
+											&lt;/div&gt;
+										&lt;/div&gt;
+
+										&lt;div class="product-order-box-overview-counter"&gt;
+											&lt;p class="left-arrow"&gt;&lt;a href="#0"&gt;◀&lt;/a&gt;&lt;/p&gt;
+											&lt;p&gt; 1 of 3 box(es)&lt;/p&gt;
+											&lt;p class="right-arrow"&gt;&lt;a href="#0">▶&lt;/a>&lt;/p&gt;
+										&lt;/div&gt;
+
+									&lt;/div&gt;
+								</code></pre>
+							</div>
+
+							<div class="css-code">
+								<p>CSS Code:</p>
+								<pre><code>.product-order-box-overview-grid&lcub;
+										display:grid;
+										grid-template-columns:repeat(6,1fr);
+									&rcub;
+
+									.left-arrow&lcub;									
+										grid-column-start: 9;
+										padding-left:0;
+										font-family: ubuntu mono, monospace;
+										margin-right:0.938rem;
+									&rcub;
+
+									.right-arrow&lcub;									
+										grid-column-start: 9;
+										padding-left:0;
+										font-family: ubuntu mono, monospace;
+										margin-left:0.938rem;
+									&rcub;
+
+									.product-order-box-overview-return&lcub;										grid-column:1/span 6;
+										margin-left:3rem;
+										display:flex;
+										flex-direction:row;
+									&rcub;
+
+									.product-order-box-overview-donuts&lcub;										grid-column:1/span 6;
+									&rcub;
+
+									.product-order-box-overview-counter&lcub;										grid-column:1/6;
+										display:flex;
+										flex-direction:row;
+										align-content:center;
+										justify-content: center;
+									&rcub;
+
+									.product-order-box-overview-return p&lcub;										margin-top:0rem;
+										margin-bottom:0rem;
+										font-weight:bold;
+										font-scale:1.5rem;
+									&rcub;
+									.product-order-box-overview-counter p&lcub;
+										margin-top:0rem;
+									&rcub;
+
+									.product-order-box-overview-return a, .product-order-box-overview-counter a&lcub;
+										text-decoration: none;
+										color:#84124F;
+									&rcub;
+								</code></pre>
+							</div>
+						</div> 
+		</section><!--  end of product-order-box-overview section -->
 	</div> <!-- end of modular elements div -->
 </div> <!-- end of grid div -->
 </div> <!-- end of container-1600 div -->
