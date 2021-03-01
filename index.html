@@ -72,9 +72,19 @@
 			<p>This is a <a href="#0">link</a> within a paragraph.</p>
 			
 			<div class="code-snippet">
-				<p>Code:</p>
-				<pre><code>&lt;p&gt;This is a &lt;a href="#0"&gt;link&lt;/a&gt; withing a paragraph.&lt;/p&gt;
-				</code></pre>
+				<div class="html-code">
+					<div class="html-code">
+						<p>HTML Code:</p>
+						<pre><code>&lt;p&gt;This is a &lt;a href="#0"&gt;link&lt;/a&gt; withing a paragraph.&lt;/p&gt;
+						</code></pre>
+					</div>
+
+					<div class="css-code">
+						<div class="css-code">
+						<pre><code>
+						</code></pre>
+					</div>
+				</div>
 			</div>
 		</section>
 
@@ -83,9 +93,18 @@
 			<a href="#0"><button class="cta-button">Order Now</button></a>
 
 			<div class="code-snippet">
-				<p>Code:</p>
-				<pre><code>&lt;a href="#0"&gt;&lt;button class="cta-button"&gt;Order Now&lt;/button&gt;&lt;/a&gt;
-				</code></pre>
+				<div class="html-code">
+					<p>HTML Code:</p>
+					<pre><code>&lt;a href="#0"&gt;&lt;button class="cta-button"&gt;Order Now&lt;/button&gt;&lt;/a&gt;
+					</code></pre>
+				</div>
+
+				<div class="css-code">
+					<p>CSS Code</p>
+					<div class="css-code">
+					<pre><code>
+					</code></pre>
+				</div>
 			</div>
 		</section>
 
@@ -95,10 +114,19 @@
 			<button type="reset">Reset</button>
 
 			<div class="code-snippet">
-				<p>Code:</p>
-				<pre><code>&lt;button type="submit"&gt;Submit&lt;/button&gt;
-					&lt;button type="reset"&gt;Reset&lt;/button&gt;
+				<div class="html-code">
+					<p>HTML Code:</p>
+					<pre><code>&lt;button type="submit"&gt;Submit&lt;/button&gt;
+						&lt;button type="reset"&gt;Reset&lt;/button&gt;
+						</code></pre>
+				</div>
+
+				<div class="css-code">
+					<p>CSS Code</p>
+					<div class="css-code">
+					<pre><code>
 					</code></pre>
+				</div>
 			</div>
 		</section>
 
@@ -108,10 +136,39 @@
 			<input type="text" placeholder="987 North Pole">
 
 			<div class="code-snippet">
-			<p>Code:</p>
-			<pre><code>&lt;label for="address"&gt;Address&lt;/label&gt;
-				&lt;input type="text" placeholder="Placeholder Text"&gt;
-			</code></pre>
+				<div class="html-code">
+					<p>HTML Code:</p>
+					<pre><code>&lt;label for="address"&gt;Address&lt;/label&gt;
+						&lt;input type="text" placeholder="Placeholder Text"&gt;
+					</code></pre>
+				</div>
+
+				<div class="css-code">
+					<div class="css-code">
+					<p>CSS Code:</p>
+					<pre><code>input&lcub;
+							font-family:"ubuntu mono", monospace;
+
+							margin-top:.5rem;
+							padding:.75rem;
+							
+							border-radius:10px;
+							border-color:#CCC;
+							border-width: 1px;
+
+							box-shadow: .5rem .5rem;
+						&rcub;
+
+						input[type]:focus&lcub;
+							outline:0rem;
+						&rcub;
+
+						input[type="address"]::placeholder&lcub;
+							color:#ddd;
+						&rcub;
+					</code></pre>
+				</div>
+			</div>
 		</div>
 		</section>
 		</div> <!-- end of basic interactive elements div -->
@@ -224,37 +281,85 @@
 			<h3 class="typography-heading">Headings</h3>
 			<h1>Montserrat. This is our heading typeface.</h1>
 				<div class="code-snippet">
-					<p>Code:</p>
-				<pre><code>&lt;h1&gt;H1 Heading&lt;/h1&gt;
-				</code></pre>
+					<div class="html-code">
+						<p>Code:</p>
+						<pre><code>&lt;h1&gt;H1 Heading&lt;/h1&gt;
+						</code></pre>
+					</div>
+
+					<div class="css-code">
+					<pre><code>h1&lcub;
+						font-size:4rem;
+					&rcub;
+					</code></pre>
+				</div>
 			</div>
 		
 			<h2>Still Montserrat, but smaller</h2>
 			<div class="code-snippet">
-				<p>Code:</p>
-				<pre><code>&lt;h2&gt;H2 Heading&lt;/h2&gt;
-				</code></pre>
+				<div class="html-code">
+					<p>Code:</p>
+					<pre><code>&lt;h2&gt;H2 Heading&lt;/h2&gt;
+					</code></pre>
+				</div>
+
+				<div class="css-code">
+					<pre><code>h4&lcub;
+						font-size:2rem;
+					&rcub;
+					</code></pre>
+				</div>
 			</div>
 
 			<h3>Montserrat is now at regular weight</h3>
 			<div class="code-snippet">
-				<p>Code:</p>
-				<pre><code>&lt;h3&gt;H3 Heading&lt;/h3&gt;
-				</code></pre>
+				<div class="html-code">
+					<p>Code:</p>
+					<pre><code>&lt;h3&gt;H3 Heading&lt;/h3&gt;
+					</code></pre>
+				</div>
+
+				<div class="css-code">
+					<pre><code>h3&lcub;
+						font-size:1.5rem;
+						font-weight: normal;
+					&rcub;
+					</code></pre>
+				</div>
 			</div>
 
 			<h4>Regular weight Montserrat and smaller</h4>
 			<div class="code-snippet">
-				<p>Code:</p>
-				<pre><code>&lt;h4&gt;H4 Heading&lt;/h4&gt;
-				</code></pre>
+				<div class="html-code">
+					<p>HTML Code:</p>
+					<pre><code>&lt;h4&gt;H4 Heading&lt;/h4&gt;
+					</code></pre>
+				</div>
+
+				<div class="css-code">
+					<pre><code>h4&lcub;
+						font-size:1.25rem;
+						font-weight: normal;
+					&rcub;
+					</code></pre>
+				</div>
 			</div>
 
 			<h5>Kinda cute now, it's used for hierarchy in tight spaces such as the footer</h5>
 			<div class="code-snippet">
-				<p>Code:</p>
-				<pre><code>&lt;h5&gt;H5 Heading&lt;/h5&gt;
-				</code></pre>
+				<div class="html-code">
+					<p>HTML Code:</p>
+					<pre><code>&lt;h5&gt;H5 Heading&lt;/h5&gt;
+					</code></pre>
+				</div>
+
+				<div class="css-code">
+					<p>CSS Code</p>
+					<pre><code>h5&lcub;
+						Placeholder
+					&rcub;
+					</code></pre>
+				</div>
 			</div>
 		</section>
 
@@ -262,9 +367,20 @@
 			<h3 class="typography-heading">Paragraph</h3>
 			<p>This is Ubuntu Mono. Meet our typeface for our paragraphs.</p>
 			<div class="code-snippet">
-				<p>Code:</p>
-				<pre><code>&lt;p&gt;Enter paragraph here.&lt;/p&gt;
-				</code></pre>
+				<div class="html-code">
+					<p>Code:</p>
+					<pre><code>&lt;p&gt;Enter paragraph here.&lt;/p&gt;
+					</code></pre>
+				</div>
+
+				<div class="css-code">
+					<pre><code>p&lcub;
+						font-size:1rem;
+						font-family: "ubuntu mono", monospace;
+						font-weight: lighter;
+					&rcub;
+					</code></pre>
+				</div>
 			</div>
 		</section>
 
@@ -277,13 +393,20 @@
 			</ul>
 
 			<div class="code-snippet">
-				<p>Code:</p>
-				<pre><code>&lt;ul&gt;
-				&lt;li&gt;Item no.1&lt;/li&gt;
-				&lt;li&gt;Item no.2&lt;/li&gt;
-				&lt;li&gt;Item no.3&lt;/li&gt;
-				&lt;/ul&gt;</code></pre>
+				<div class="html-code">
+					<p>HTML Code:</p>
+					<pre><code>&lt;ul&gt;
+					&lt;li&gt;Item no.1&lt;/li&gt;
+					&lt;li&gt;Item no.2&lt;/li&gt;
+					&lt;li&gt;Item no.3&lt;/li&gt;
+					&lt;/ul&gt;</code></pre>
+				</div>
 
+				<div class="css-code">
+					<pre><code>
+
+					</code></pre>
+				</div>
 			</div>
 
 		</section>
@@ -297,13 +420,21 @@
 			</ol>
 
 			<div class="code-snippet">
-				<p>Code:</p>
-				<pre><code>&lt;ol&gt;
-					&lt;li&gt;Item Number One&lt;/li&gt;
-					&lt;li&gt;Item Number Two&lt;/li&gt;
-					&lt;li&gt;Item Number Three&lt;/li&gt;
-					&lt;/ol&gt;
-				</code></pre>
+				<div class="html-code">
+					<p>HTML Code:</p>
+					<pre><code>&lt;ol&gt;
+						&lt;li&gt;Item Number One&lt;/li&gt;
+						&lt;li&gt;Item Number Two&lt;/li&gt;
+						&lt;li&gt;Item Number Three&lt;/li&gt;
+						&lt;/ol&gt;
+					</code></pre>
+				</div>
+
+				<div class="css-code">
+					<pre><code>
+
+					</code></pre>
+				</div>
 			</div>
 		</section>
 		</div> <!-- end of typography div -->
@@ -327,16 +458,37 @@
 			</div>
 
 			<div class="code-snippet">
-				<p>Code:</p>
-				<pre><code>&lt;nav&gt;
-					&lt;a href="index.html"&gt;&lt;img src="directory.png" alt="Dipp'd shop logo"&gt;&lt;/a&gt;
-					&lt;a href="products.html"&gt;Shop&lt;/a&gt;
-					&lt;a href="about.html"&gt;About Us&lt;/a&gt;
-					&lt;a href="cart.html"&gt;
-					&lt;div class="cart-icon"&gt;&lt;/div&gt;
-					&lt;/a&gt;
-					&lt;/nav&gt;
-				</code></pre>
+				<div class="html-code">
+					<p>HTML Code:</p>
+					<pre><code>&lt;nav&gt;
+						&lt;a href="index.html"&gt;&lt;img src="directory.png" alt="Dipp'd shop logo"&gt;&lt;/a&gt;
+						&lt;a href="products.html"&gt;Shop&lt;/a&gt;
+						&lt;a href="about.html"&gt;About Us&lt;/a&gt;
+						&lt;a href="cart.html"&gt;
+						&lt;div class="cart-icon"&gt;&lt;/div&gt;
+						&lt;/a&gt;
+						&lt;/nav&gt;
+					</code></pre>
+				</div>
+
+				<div class="css-code">
+					<p>CSS Code:</p>
+					<pre><code>.main-nav&lcub;
+							width:100%;
+							background-color:#6339A1;	
+							display:flex;
+							justify-content: space-between;
+							align-items:center;
+							padding: 1rem 2rem;
+						&rcub;
+
+						.main-nav-wrapper&lcub;
+							display:flex;
+							justify-content: space-between;
+							align-items:center;
+						&rcub;
+					</code></pre>
+				</div>
 			</div>
 		</section>
 
@@ -425,30 +577,182 @@
 			</div>
 
 			<div class="code-snippet">
-				<p>Code:</p>
-				<pre><code>&lt;div class="product-grid__item"&gt;
-					&lt;div class="product-grid__item-img-wrapper"&gt;
-					&lt;img src="image-directory.png" alt="description of image"&gt;
-					&lt;div class="product-grid__item-details"&gt;<
-					&lt;p&gt;product description text&lt;br&gt;&lt;p&gt;
-					class="vegan">Vegan&lt;.p&gt; + &lt;p class="gluten-free"&gt;
-					Gluten-free&lt;/p&gt;&lt;/p&gt;
-					&lt;/div&gt; &lt;!-- end of product-grid-item-details div --&gt;
-					&lt;/div&gt; &lt;!-- end of product-grid__item-img-wrapper div --&gt;
-					
-					&lt;div class="product-grid__item-info"&gt;
-					&lt;h4&gt;product name&lt;/h4&gt;
-					&lt;img src="icon1-directory.png" alt="description of second icon"&gt;
-					&lt;img src="icon2-directory.png" alt="description of second icon"&gt;
-					&lt;/div&gt;
-					
-					&lt;div class="product-grid__item-quantity"&gt;
-					&lt;button type="quantity"&gt;-&lt;/button&gt;
-					&lt;input type="number" placeholder="0" id="quantity" name="quantity" min="0"&gt;
-					&lt;button type="quantity"&gt;+&lt;/button&gt;
-					&lt;/div&gt; &lt;!-- end of product-grid__item-quantity div --&gt;
-					&lt;/div&gt; &lt;!-- end of product-grid-item div --&gt;
-				</code></pre>
+				<div class="html-code">
+					<p>HTML Code:</p>
+					<pre><code>&lt;div class="product-grid__item"&gt;
+						&lt;div class="product-grid__item-img-wrapper"&gt;
+						&lt;img src="image-directory.png" alt="description of image"&gt;
+						&lt;div class="product-grid__item-details"&gt;<
+						&lt;p&gt;product description text&lt;br&gt;&lt;p&gt;
+						class="vegan">Vegan&lt;.p&gt; + &lt;p class="gluten-free"&gt;
+						Gluten-free&lt;/p&gt;&lt;/p&gt;
+						&lt;/div&gt; &lt;!-- end of product-grid-item-details div --&gt;
+						&lt;/div&gt; &lt;!-- end of product-grid__item-img-wrapper div --&gt;
+						
+						&lt;div class="product-grid__item-info"&gt;
+						&lt;h4&gt;product name&lt;/h4&gt;
+						&lt;img src="icon1-directory.png" alt="description of second icon"&gt;
+						&lt;img src="icon2-directory.png" alt="description of second icon"&gt;
+						&lt;/div&gt;
+						
+						&lt;div class="product-grid__item-quantity"&gt;
+						&lt;button type="quantity"&gt;-&lt;/button&gt;
+						&lt;input type="number" placeholder="0" id="quantity" name="quantity" min="0"&gt;
+						&lt;button type="quantity"&gt;+&lt;/button&gt;
+						&lt;/div&gt; &lt;!-- end of product-grid__item-quantity div --&gt;
+						&lt;/div&gt; &lt;!-- end of product-grid-item div --&gt;
+					</code></pre>
+				</div>
+
+				<div class="css-code">
+					<p>CSS Code:</p>
+					<pre><code>.product-grid__item&lcub;
+							margin:2.5rem 2.5rem 2.5rem 2.5rem;
+						&rcub;
+
+						#product-grid-item&lcub;
+							background-color:#FFB6D0;
+						&rcub;
+
+						.product-grid&lcub;
+							display:grid;
+							grid-template-columns: repeat(3, 1fr);
+						&rcub;
+
+						.vegan&lcub;
+							display:inline;
+							color:#64D9C2;
+						&rcub;
+
+						.gluten-free&lcub;
+							display:inline;
+							color:#FFF5C0;
+						&rcub;
+
+						.product-grid__item&lcub;
+							display:flex;
+							flex-direction: column;
+							justify-content: center;
+							align-self: center;
+						&rcub;
+
+						.product-grid__item-info&lcub;
+							display:flex;
+							justify-content: center;
+							align-content: center;
+						&rcub;
+						.product-grid__item-info img&lcub;
+							align-self: center;
+							margin-left:.5rem;
+						&rcub;
+
+						.product-grid__item-quantity &lcub;
+							display: flex;
+							justify-content: center;
+							align-items: center;
+						&rcub;
+
+						input[type="number"]&lcub;
+							font-family:"ubuntu mono", monospace;
+
+							text-align: center;
+
+							margin-top:0;
+							padding:.5rem;
+							width:3rem;
+							margin:0 .5rem;
+
+							border-radius:5px;
+							border: 1px solid #CCC;
+
+							box-shadow: none;
+						&rcub;
+
+						input[type="number"]::placeholder&lcub;
+							color:#ddd;
+						&rcub;
+
+						input[type=number]::-webkit-inner-spin-button, 
+						input[type=number]::-webkit-outer-spin-button &lcub; 
+						  -webkit-appearance: none;
+						&rcub;
+
+						button[type="quantity"]&lcub;
+							font-family:"ubuntu mono", monospace;
+							font-weight:bold;
+							font-size:1rem;
+							color:black;
+
+							width:2rem;
+							height:2rem;
+							border:none;
+							border-radius: 50%;
+							padding:0rem;
+							background-color:#FED10A;
+							box-shadow:none;
+							margin-right:0;
+
+							transition: transform .2s; /* Animation */
+						&rcub;
+
+						button[type="quantity"]:hover&lcub;
+							transform:scale(1.15);
+						&rcub;
+
+						.product-grid__item-img-wrapper&lcub;
+							position:relative;
+							display:flex;
+							flex-direction: column;
+							justify-content: center;
+							align-content: center;
+							z-index: 0;
+						&rcub;
+
+						.product-grid__item-img-wrapper img&lcub;
+							width: clamp(10vw,100%,50vw);
+							max-height: 100%;
+							margin:auto;
+						&rcub;
+
+						.product-grid__item-text&lcub;
+							position:absolute;
+							color:white;
+							width:100%;
+							height:100%;
+							border-radius: 10px;
+							text-align: center;
+							padding:5%;
+
+							display:flex;
+							flex-direction: column;
+							align-content: center;
+							justify-content: center;
+
+							opacity: 0;
+							transition: opacity .2s;
+						&rcub;
+
+						.product-grid__item-text > p&lcub;
+							margin-top:0;
+						&rcub;
+
+						.product-grid__item-text-dietary&lcub;
+							display:inline;
+						&rcub;
+
+						.product-grid__item-text:hover&lcub;
+							opacity: 1;
+
+							display:flex;
+							flex-direction: column;
+							align-content: center;
+							justify-content: center;
+
+							background-color: rgba(0,0,0,0.7);
+						&rcub;
+
+					</code></pre>
+				</div>
 			</div>
 		</section>
 
@@ -472,22 +776,33 @@
 			<p>12 column grid for flexible layouts<br><i>Overview structure</i></p>
 
 			<div class="code-snippet">
-				<p>Code:</p>
-				<pre><code>&lt;div class="grid-structure"&gt;
-					&lt;div class="placeholder-content"&gt;1&lt;/div&gt;
-					&lt;div class="placeholder-content"&gt;2&lt;/div&gt;
-					&lt;div class="placeholder-content"&gt;3&lt;/div&gt;
-					&lt;div class="placeholder-content"&gt;4&lt;/div&gt;
-					&lt;div class="placeholder-content"&gt;5&lt;/div&gt;
-					&lt;div class="placeholder-content"&gt;6&lt;/div&gt;
-					&lt;div class="placeholder-content"&gt;7&lt;/div&gt;
-					&lt;div class="placeholder-content"&gt;8&lt;/div&gt;
-					&lt;div class="placeholder-content"&gt;9&lt;/div&gt;
-					&lt;div class="placeholder-content"&gt;10&lt;/div&gt;
-					&lt;div class="placeholder-content"&gt;11&lt;/div&gt;
-					&lt;div class="placeholder-content"&gt;12&lt;/div&gt;
-					&lt;/div&gt;
-				</code></pre>
+				<div class="html-code">
+					<p>HTML Code:</p>
+					<pre><code>&lt;div class="grid-structure"&gt;
+						&lt;div class="placeholder-content"&gt;1&lt;/div&gt;
+						&lt;div class="placeholder-content"&gt;2&lt;/div&gt;
+						&lt;div class="placeholder-content"&gt;3&lt;/div&gt;
+						&lt;div class="placeholder-content"&gt;4&lt;/div&gt;
+						&lt;div class="placeholder-content"&gt;5&lt;/div&gt;
+						&lt;div class="placeholder-content"&gt;6&lt;/div&gt;
+						&lt;div class="placeholder-content"&gt;7&lt;/div&gt;
+						&lt;div class="placeholder-content"&gt;8&lt;/div&gt;
+						&lt;div class="placeholder-content"&gt;9&lt;/div&gt;
+						&lt;div class="placeholder-content"&gt;10&lt;/div&gt;
+						&lt;div class="placeholder-content"&gt;11&lt;/div&gt;
+						&lt;div class="placeholder-content"&gt;12&lt;/div&gt;
+						&lt;/div&gt;
+					</code></pre>
+				</div>
+
+				<div class="css-code">
+					<p>CSS Code:</p>
+					<pre><code>.grid-structure&lcub;
+						display:grid;
+						grid-template-columns:repeat(12, 1fr);
+						&rcub;
+					</code></pre>
+				</div>
 			</div>
 
 			<div class="grid-structure">
@@ -497,12 +812,26 @@
 			<p>2 column grid<br><i>Use Cases: Cart Overview Page</i></p>
 
 			<div class="code-snippet">
-				<p>Code:</p>
-				<pre><code>&lt;div class="grid-structure"&gt;
-					&lt;div class="placeholder-content half"&gt;1&lt;/div&gt;
-					&lt;div class="placeholder-content half"&gt;2&lt;/div&gt;
-					&lt;/div&gt;
-				</code></pre>
+				<div class="html-code">
+					<p>Code:</p>
+					<pre><code>&lt;div class="grid-structure"&gt;
+						&lt;div class="placeholder-content half"&gt;1&lt;/div&gt;
+						&lt;div class="placeholder-content half"&gt;2&lt;/div&gt;
+						&lt;/div&gt;
+					</code></pre>
+				</div>
+
+				<div class="css-code">
+					<pre><code>.grid-structure&lcub;
+						display:grid;
+						grid-template-columns:repeat(12, 1fr);
+						&rcub;
+
+						.third&lcub;
+						grid-column:span 4;
+						&rcub;
+					</code></pre>
+				</div>
 			</div>
 
 			<div class="grid-structure">
@@ -513,13 +842,28 @@
 			<p>3 column grid<br><i>Use Cases: Featured Products Section</i></p>
 
 			<div class="code-snippet">
-				<p>Code:</p>
-				<pre><code>&lt;div class="grid-structure"&gt;
-					&lt;div class="placeholder-content third"&gt;1&lt;/div&gt;
-					&lt;div class="placeholder-content third"&gt;2&lt;/div&gt;
-					&lt;div class="placeholder-content third"&gt;3&lt;/div&gt;
-					&lt;/div&gt;
-				</code></pre>
+				<div class="html-code">
+					<p>HTML Code:</p>
+					<pre><code>&lt;div class="grid-structure"&gt;
+						&lt;div class="placeholder-content third"&gt;1&lt;/div&gt;
+						&lt;div class="placeholder-content third"&gt;2&lt;/div&gt;
+						&lt;div class="placeholder-content third"&gt;3&lt;/div&gt;
+						&lt;/div&gt;
+					</code></pre>
+				</div>
+
+				<div class="css-code">
+					<p>CSS Code:</p>
+					<pre><code>.grid-structure&lcub;
+							display:grid;
+							grid-template-columns:repeat(12, 1fr);
+						&rcub;
+
+						.third&lcub;
+							grid-column:span 4;
+						&rcub;
+					</code></pre>
+				</div>
 			</div>
 
 			<div class="grid-structure">
@@ -531,14 +875,29 @@
 			<p>4 column grid<br><i>Use Cases: Product Page</i></p>
 
 			<div class="code-snippet">
-				<p>Code:</p>
-				<pre><code>&lt;div class="grid-structure"&gt;
-					&lt;div class="placeholder-content quarter"&gt;1&lt;/div&gt;
-					&lt;div class="placeholder-content quarter"&gt;2&lt;/div&gt;
-					&lt;div class="placeholder-content quarter"&gt;3&lt;/div&gt;
-					&lt;div class="placeholder-content quarter"&gt;4&lt;/div&gt;
-					&lt;/div&gt;
-				</code></pre>
+				<div class="html-code">
+					<p>HTML Code:</p>
+					<pre><code>&lt;div class="grid-structure"&gt;
+						&lt;div class="placeholder-content quarter"&gt;1&lt;/div&gt;
+						&lt;div class="placeholder-content quarter"&gt;2&lt;/div&gt;
+						&lt;div class="placeholder-content quarter"&gt;3&lt;/div&gt;
+						&lt;div class="placeholder-content quarter"&gt;4&lt;/div&gt;
+						&lt;/div&gt;
+					</code></pre>
+				</div>
+
+				<div class="css-code">
+					<p>CSS Code:</p>
+					<pre><code>.grid-structure&lcub;
+							display:grid;
+							grid-template-columns:repeat(12, 1fr);
+						&rcub;
+
+						.quarter&lcub;
+							grid-column:span 3;
+						&rcub;
+					</code></pre>
+				</div>
 			</div>
 		</section>
 
@@ -608,67 +967,153 @@
 			</footer>
 
 			<div class="code-snippet">
-				<p>Code:</p>
-				<pre><code>&lt;footer&gt;
-					&lt;div class="container-footer-1600"&gt;
-					&lt;div class="footer-wrapper-grid"&gt;
-					&lt;div class="footer-list-wrapper"&gt;
-					&lt;div class="footer-icons"&gt;
+				<div class="html-code">
+					<p>HTML Code:</p>
+					<pre><code>&lt;footer&gt;
+						&lt;div class="container-footer-1600"&gt;
+						&lt;div class="footer-wrapper-grid"&gt;
+						&lt;div class="footer-list-wrapper"&gt;
+						&lt;div class="footer-icons"&gt;
 
-					&lt;img class="dippd-logo" src="img/dippd-logo.png" alt="dippd donuts branding logo"&gt;
-					&lt;ref="htttp://instagram.com"&gt;
-					&lt;src="img/instagram-icon.png" alt="Instagram logo that links to the dippd Instagram page"&gt;
-					&lt;p&gt;@dippd&lt;/p&gt;
-					&lt;/div&gt;
-					&lt;/a&gt;
-					&lt;/div&gt;
-					
-					&lt;div class="footer-location&gt;
-					&lt;h5&gt;Locations&lt;/h5&gt;
-					&lt;p&gt;Torongo, ON&lt;/p&gt;
-					&lt;/div&gt;
-					
-					&lt;div class="footer-hours&gt;
-					&lt;h5&gt;Hours&lt;/h5&gt;
-					&lt;ul id="hours"&gt;
-					&lt;li&gt;Mon 10AM-5PM&lt;/li&gt;
-					&lt;li&gt;Tue 10AM-5PM&lt;/li&gt;
-					&lt;li&gt;Wed 10AM-5PM&lt;/li&gt;
-					&lt;li&gt;Thu 10AM-5PM&lt;/li&gt;
-					&lt;li&gt;Fri 10AM-5PM&lt;/li&gt;
-					&lt;li&gt;Sat 10AM-5PM&lt;/li&gt;
-					&lt;li&gt;Sun 10AM-5PM&lt;/li&gt;
-					&lt;/ul&gt;
-					&lt;/div&gt;
-					
-					&lt;div class="footer-contact&gt;
-					&lt;h5 id="contact"&gt;Contacts&lt;/h5&gt;
-					&lt;ul&gt;
-					&lt;li&gt;&lt;a href="#0"&gt;About Us&lt;/a&gt;&lt;/li&gt;
-					&lt;li&gt;&lt;a href="#0"&gt;Email&lt;/a&gt;&lt;/li&gt;
-					&lt;li&gt;&lt;a href="#0"&gt;Instagram&lt;/a&gt;&lt;/li&gt;
-					&lt;/ul&gt;
-					&lt;/div&gt;
-					
-					&lt;div class="footer-help&gt;
-					&lt;h5 id="help"&gt;Help&lt;/h5&gt;
-					&lt;ul&gt;
-					&lt;li&gt;&lt;a href="#0"&gt;FAQ&lt;/a&gt;&lt;/li&gt;
-					&lt;li&gt;&lt;a href="#0"&gt;Privacy&lt;/a&gt;&lt;/li&gt;
-					&lt;li&gt;&lt;a href="#0"&gt;TOS&lt;/a&gt;&lt;/li&gt;
-					&lt;li&gt;&lt;a href="#0"&gt;References&lt;/a&gt;&lt;/li&gt;
-					&lt;/ul&gt;
-					&lt;/div&gt;
-					&lt;/div&gt;&lt;!-- end of footer-list-wrapper div --&gt;
-					
-					&lt;div class="footer-copyright"&gt;
-					&lt;p&gt;© Copyright 2021 Dipp’d Donuts. All rights reserved. Website proudly created by E-Donuts Team&lt;/p&gt;
-					&lt;/div&gt;
-					&lt;/div&gt;&lt;!-- end of footer-wrapper-grid div --&gt;
-					&lt;/div&gt;&lt;!-- end of container-footer-1600 div --&gt;
+						&lt;img class="dippd-logo" src="img/dippd-logo.png" alt="dippd donuts branding logo"&gt;
+						&lt;ref="htttp://instagram.com"&gt;
+						&lt;src="img/instagram-icon.png" alt="Instagram logo that links to the dippd Instagram page"&gt;
+						&lt;p&gt;@dippd&lt;/p&gt;
+						&lt;/div&gt;
+						&lt;/a&gt;
+						&lt;/div&gt;
+						
+						&lt;div class="footer-location&gt;
+						&lt;h5&gt;Locations&lt;/h5&gt;
+						&lt;p&gt;Torongo, ON&lt;/p&gt;
+						&lt;/div&gt;
+						
+						&lt;div class="footer-hours&gt;
+						&lt;h5&gt;Hours&lt;/h5&gt;
+						&lt;ul id="hours"&gt;
+						&lt;li&gt;Mon 10AM-5PM&lt;/li&gt;
+						&lt;li&gt;Tue 10AM-5PM&lt;/li&gt;
+						&lt;li&gt;Wed 10AM-5PM&lt;/li&gt;
+						&lt;li&gt;Thu 10AM-5PM&lt;/li&gt;
+						&lt;li&gt;Fri 10AM-5PM&lt;/li&gt;
+						&lt;li&gt;Sat 10AM-5PM&lt;/li&gt;
+						&lt;li&gt;Sun 10AM-5PM&lt;/li&gt;
+						&lt;/ul&gt;
+						&lt;/div&gt;
+						
+						&lt;div class="footer-contact&gt;
+						&lt;h5 id="contact"&gt;Contacts&lt;/h5&gt;
+						&lt;ul&gt;
+						&lt;li&gt;&lt;a href="#0"&gt;About Us&lt;/a&gt;&lt;/li&gt;
+						&lt;li&gt;&lt;a href="#0"&gt;Email&lt;/a&gt;&lt;/li&gt;
+						&lt;li&gt;&lt;a href="#0"&gt;Instagram&lt;/a&gt;&lt;/li&gt;
+						&lt;/ul&gt;
+						&lt;/div&gt;
+						
+						&lt;div class="footer-help&gt;
+						&lt;h5 id="help"&gt;Help&lt;/h5&gt;
+						&lt;ul&gt;
+						&lt;li&gt;&lt;a href="#0"&gt;FAQ&lt;/a&gt;&lt;/li&gt;
+						&lt;li&gt;&lt;a href="#0"&gt;Privacy&lt;/a&gt;&lt;/li&gt;
+						&lt;li&gt;&lt;a href="#0"&gt;TOS&lt;/a&gt;&lt;/li&gt;
+						&lt;li&gt;&lt;a href="#0"&gt;References&lt;/a&gt;&lt;/li&gt;
+						&lt;/ul&gt;
+						&lt;/div&gt;
+						&lt;/div&gt;&lt;!-- end of footer-list-wrapper div --&gt;
+						
+						&lt;div class="footer-copyright"&gt;
+						&lt;p&gt;© Copyright 2021 Dipp’d Donuts. All rights reserved. Website proudly created by E-Donuts Team&lt;/p&gt;
+						&lt;/div&gt;
+						&lt;/div&gt;&lt;!-- end of footer-wrapper-grid div --&gt;
+						&lt;/div&gt;&lt;!-- end of container-footer-1600 div --&gt;
 
-					&lt;/footer&gt;
-				</code></pre>
+						&lt;/footer&gt;
+					</code></pre>
+				</div>
+
+				<div class="css-code">
+					<p>CSS Code:</p>
+					<pre><code>.footer-wrapper-grid&lcub;
+							color:white;
+							display:grid;
+							grid-template-rows:3fr 1fr;
+						&rcub;
+
+						.footer-copyright&lcub;
+							text-align:center;
+							grid-row:2;
+							display:flex;
+							align-items: center;
+							justify-content: center;
+							width:100%;
+							background-color:#6339A1;
+						&rcub;
+
+						.footer-copyright p&lcub;
+							font-size:.75rem;
+							width:clamp(45ch,50%,75ch);
+						&rcub;
+
+						.footer-list-wrapper&lcub;
+							grid-row:1;
+							display:flex;
+							align-items: baseline;
+							justify-content: space-between;
+							width:100%;
+							background-color:#6339A1;
+
+							padding:3rem;
+							font-family:"ubuntu mono", monospace;
+							font-weight:lighter;
+						&rcub;
+
+						.footer-list-wrapper a:hover&lcub;
+							text-decoration:underline;
+						&rcub;
+
+						.footer-icons a:hove&lcub;
+							text-decoration:none;
+						&rcub;
+
+						.footer-wrapper-grid u&lcub;
+							list-style-type:none;
+							margin:1rem 0;
+							padding:0;
+						&rcub;
+
+						.footer-list-wrapper h&lcub;
+							font-family:montserrat, sans-serif;
+							margin:0;
+						&rcub;
+
+						.footer-instagram-link&lcub;
+							display:flex;
+							align-content: center;
+							align-items: center;
+						&rcub;
+
+						.footer-icons p&lcub;
+							display:inline;
+							font-family:montserrat, sans-serif;
+							margin-left:10px;
+						&rcub;
+
+						.footer-list-wrapper a&lcub;
+							color:white;
+							text-decoration:none;
+						&rcub;
+						.footer-icons, .footer-location, .footer-hours, .footer-contact, .footer-help &lcub;
+							display:flex;
+							flex-direction: column;
+						&rcub;
+
+						.footer-list-wrapper > .divider-line&lcub;
+								background-color: white;
+								display:none;
+								width: 100%;
+						&rcub;
+					</code></pre>
+				</div>
 			</div>
 		</section>
 
@@ -699,9 +1144,9 @@
 		</section>
 
 		<div class="code-snippet">
-				<p>Code:</p>
-				<pre><code>
-					&lt;div class="social-media-card-grid"&gt;
+			<div class="html-code">
+				<p>HTML Code:</p>
+				<pre><code>&lt;div class="social-media-card-grid"&gt;
 						&lt;div class="social-media-card-wrapper"&gt;
 							&lt;div class="social-media-card-image"&gt;
 								&lt;img src="img/instagram-post1.png" alt="instagram post from dippd customer"&gt;
@@ -724,11 +1169,63 @@
 					&lt;/div&gt;
 				</code></pre>
 			</div>
+
+			<div class="css-code">
+				<p>CSS Code:</p>
+				<pre><code>.social-media-card-grid&lcub;
+						display:grid;
+						grid-template-columns:repeat(3, 1fr);
+						margin-bottom:2.5rem;
+					&rcub;
+
+					.social-media-card-wrapper&lcub;
+						grid-column:1/2;
+						display:flex;
+						flex-direction:column;
+						box-shadow:1.5rem 1.5rem black;
+					&rcub;
+
+					.social-media-card-text&lcub;
+						height:clamp(5rem, 100vw, 8.5rem);
+						margin:0.938rem 0.938rem 0.938rem 0.938rem;
+					&rcub;
+
+					.social-media-card-text p&lcub;
+						font-size:1.313rem;
+						margin:0rem;
+					&rcub;
+
+					.social-media-card-footer&lcub;
+						display:grid;
+						grid-template-columns: 4fr 0.5fr; 
+						background:#55D1B9;
+						align-items:center;
+					&rcub;
+
+					.social-media-card-tag&lcub;
+						grid-column:1/2;
+						margin-left:0.938rem;
+					&rcub;
+
+					.social-media-card-tag p&lcub;
+						grid-column:1/2;
+						font-size:1.313rem;
+					&rcub;
+
+
+					.social-media-card-logo&lcub;
+						grid-column:2/3;
+					&rcub;
+				</code></pre>
+			</div>
+
+		</div>
 		</section>
 
 		<section id="checkout-product-preview">
 			<h3>Checkout Product Preview</h3>
-			<aside class="checkout-product-preview-menu">
+			<p>This checkout product preview organism is found on the checkout page that provides users with information on their current order. An image representation of the users order (in the form of a box) is presented along with details regarding their items and price.</p>
+			<div class="checkout-product-preview-menu">
 				<div class="checkout-product-preview-wrapper">
 					<div class="top-checkout">
 						<img src="img/donut-box-example.png" alt="An image of a donut box order">
@@ -759,6 +1256,7 @@
 							<p>$21.00</p>
 						</div>
 
+						<!-- Unused table implementation -->
 						<!-- <table>
 							<tbody>
 								<tr class="product-names">
@@ -782,8 +1280,115 @@
 							</tfoot>
 						</table>
 					</div> -->	
+					</div>
 				</div>
-			</aside>
+			</div>
+
+			<div class="code-snippet">
+				<div class="html-code">
+					<p>HTML Code:</p>
+					<pre><code>&lt;div class="checkout-product-preview-menu"&gt;
+							&lt;div class="checkout-product-preview-wrapper"&gt;
+								&lt;div class="top-checkout"&gt;
+									&lt;img src="img/donut-box-example.png" alt="An image of a donut box order"&gt;
+								&lt;/div>
+								&lt;div class="bottom-checkout"&gt;
+									&lt;div class="product-name-and-value"&gt;
+										&lt;p>Half Dozen Donuts&lt;/p&gt;
+										&lt;p>$21.00&lt;/p&gt;
+									&lt;/div&gt;
+
+									&lt;div class="divider-line">&lt;/div&gt;
+
+									&lt;div class="subtotal-name-and-value"&gt;
+										&lt;p>Subtotal&lt;/p&gt;
+										&lt;p>$21.00&lt;/p&gt;
+									&lt;/div&gt;
+
+									&lt;div class="shipping-name-and-value"&gt;
+										&lt;p&gt;Shipping&lt;/p&gt;
+										&lt;p&gt;--&lt;/p&gt;
+									&lt;/div&gt;
+
+									&lt;div class="divider-line"&gt;&lt;/div&gt;
+
+									&lt;div class="total-value"&gt;
+										&lt;p&gt;Total&lt;/p&gt;
+										&lt;p&gt;$21.00&lt;/p&gt;
+									&lt;/div&gt;
+								&lt;/div&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+					</code></pre>
+				</div>
+
+				<div class="css-code">
+					<p>CSS Code::</p>
+					<pre><code>.checkout-product-preview-menu&lcub;
+							padding:2.5rem 6.25rem 2.5rem 2.5rem;
+							background:#6339A1;
+						&rcub;
+
+						.checkout-product-preview-wrapper&lcub;
+							display:flex;
+							flex-direction: column;
+							background:#6339A1;
+						&rcub;
+
+						.bottom-checkout{
+							margin-top:1.5rem;
+						&rcub;
+
+						.bottom-checkout > .divider-line&lcub;
+							width:100%;
+						&rcub;
+
+						.product-name-and-value&lcub;
+							display:flex;
+							flex-direction:row;
+							justify-content:space-between;
+							margin-left:1.25rem;
+						&rcub;
+
+						.subtotal-name-and-value&lcub;
+							display:flex;
+							flex-direction:row;
+							justify-content:space-between;
+							margin-left:1.25rem;
+						&rcub;
+
+						.shipping-name-and-value&lcub;
+							display:flex;
+							flex-direction:row;
+							justify-content:space-between;
+							margin-left:1.25rem;
+						&rcub;
+
+						.total-value&lcub;
+							display:flex;
+							flex-direction:row;
+							justify-content:space-between;
+							margin-left:1.25rem;
+						&rcub;
+
+						.product-name-and-value p, .subtotal-name-and-value p, .shipping-name-and-value p&lcub;
+							font-family:montserrat, sans-serif;
+							font-size:1.125rem;
+							color:white;
+							margin-top:0rem;
+							margin-bottom:0.625rem;
+						&rcub;
+
+						.total-value p&lcub;
+							font-family:montserrat, sans-serif;
+							font-size:1.125rem;
+							font-weight:bold;
+							color:white;
+							margin-top:0rem;
+						&rcub;
+					</code></pre>
+				</div>
+			</div>
 		</section> <!-- end of checkout-product-preview -->
 
 		<section id="faq-element">
@@ -800,6 +1405,95 @@
 					</div>
 				</div>
 			</div>
+
+			<div class="code-snippet">
+				<div class="html-code">
+					<p>HTML Code:</p>
+					<pre><code>&lt;div class= "faq-element-grid"&gt;
+							&lt;div class= "faq-element-wrapper"&gt;
+								&lt;div class= "faq-question"&gt;
+									&lt;p>I live in Vancouver, can I order Dipp’d donuts online?&lt;/p&gt;
+									&lt;p class= "down-arrow"&gt;▼&lt;/p&gt;
+								&lt;/div>
+								&lt;div class= "faq-answer"&gt;
+									&lt;p>Unfortunately, Dipp’d only ships within the area of greater Toronto.&lt;/p&gt;
+									&lt;p class= "up-arrow"&gt;▲&lt;/p&gt;
+								&lt;/div&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+					</code></pre>
+				</div>
+
+				<div class="css-code">
+					<p>CSS Code:</p>
+					<pre><code>.faq-element-grid&lcub;
+							display:grid;
+							grid-template-columns:repeat(9,1fr);
+						&rcub;
+
+						.faq-element-wrapper&lcub;
+							grid-column:1/span 9;
+							position:relative;
+						&rcub;
+
+						.faq-element-wrapper .down-arrow&lcub;
+							color:#FED10A;
+							grid-column-start: 9;
+							padding-left:0;
+							font-family: ubuntu mono, monospace;
+						&rcub;
+
+						.faq-element-wrapper .up-arrow&lcub;
+							color:#11362F;
+							grid-column-start: 9;
+							padding-left:0;
+						&rcub;
+
+						.faq-question&lcub;
+							display:grid;
+							grid-template-columns:repeat(9,1fr);
+							background-color:#2D6E62;
+							box-shadow:0.5rem 0.5rem #11362F;
+						&rcub;
+
+						.faq-question p&lcub;
+							grid-column: 1/span 8;
+							font-size: 1.75rem;
+							color:white;
+							font-weight:500;
+							font-family:montserrat, sans-serif;
+							padding-left:1.75rem;
+						&rcub;
+
+						.faq-answer&lcub;
+							position:absolute;
+							background-color:#FED10A;
+							display:grid;
+							grid-template-columns:repeat(9,1fr);
+							opacity:0;
+							transition: 0.3s ease;
+							width:100%;
+							height:100%;
+							top:0;
+						&rcub;
+
+						.faq-answer p&lcub;
+							grid-column: 1/span 8;
+							font-size: 1.75rem;
+							color:black;
+							font-weight:400;
+							padding-left:1.75rem;
+						&rcub;
+
+						.faq-element-wrapper:hover .faq-answer&lcub;
+							opacity:1;
+						&rcub;
+
+					</code></pre>
+				</div>
+			</div>
+
+
 		</section> <!-- end of FAQ element section -->
 	</div> <!-- end of modular elements div -->
 </div> <!-- end of grid div -->
