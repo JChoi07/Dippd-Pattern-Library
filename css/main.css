@@ -577,6 +577,12 @@ button[type="quantity"]:hover{
 	margin-left:1.25rem;
 }
 
+.top-checkout img{
+	width:clamp(10vw, 50%, 50vw);
+	max-height:100%;
+	margin:auto;
+}
+
 .product-name-and-value p, .subtotal-name-and-value p, .shipping-name-and-value p{
 	font-family:montserrat, sans-serif;
 	font-size:1.125rem;
@@ -735,14 +741,24 @@ button[type="quantity"]:hover{
 
 .product-order-box-overview-donuts{
 	grid-column:1/span 6;
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	align-content:center;
 }
 
 .product-order-box-overview-counter{
-	grid-column:1/6;
+	grid-column:1/7;
 	display:flex;
 	flex-direction:row;
 	align-content:center;
 	justify-content: center;
+}
+
+.product-order-box-overview-donuts img{
+	width:clamp(10vw, 100%, 50vw);
+	max-height:100%;
+	margin:auto;
 }
 
 .product-order-box-overview-return p{
