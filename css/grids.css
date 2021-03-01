@@ -47,6 +47,20 @@
 	margin-top: 4rem;
 }
 
+.code-snippet{
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap:1.25rem;
+}
+
+.html-code{
+	grid-column:1/2;
+}
+
+.css-code{
+	grid-column:2/3;
+}
+
 
 /* Media Queries ---------------------------------------------- */
 
