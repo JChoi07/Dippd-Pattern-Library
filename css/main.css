@@ -323,8 +323,7 @@ input[type="number"]{
 /* PRODUCT GRID ITEM -------------------------------------------------------------------------------- */ 
 
 .product-grid__item{
-	margin-bottom: 2.5rem;
-	margin-top:2.5rem;
+	margin:2.5rem 2.5rem 2.5rem 2.5rem;
 }
 
 #product-grid-item{
@@ -540,18 +539,8 @@ button[type="quantity"]:hover{
 	background:#6339A1;
 }
 
-.product-name-and-value p, .subtotal-name-and-value p, .shipping-name-and-value p{
-	font-family:montserrat, sans-serif;
-	font-size:1.125rem;
-	color:white;
-}
-
-.total-value p{
-	font-style:bold;
-}
-
-.total-value{
-
+.bottom-checkout{
+	margin-top:1.5rem;
 }
 
 .bottom-checkout > .divider-line{
@@ -586,18 +575,73 @@ button[type="quantity"]:hover{
 	margin-left:1.25rem;
 }
 
-/* FAQ ELEMENT -------------------------------------------------------------------------------- */ 
+.product-name-and-value p, .subtotal-name-and-value p, .shipping-name-and-value p{
+	font-family:montserrat, sans-serif;
+	font-size:1.125rem;
+	color:white;
+	margin-top:0rem;
+	margin-bottom:0.625rem;
+}
 
+.total-value p{
+	font-family:montserrat, sans-serif;
+	font-size:1.125rem;
+	font-weight:bold;
+	color:white;
+	margin-top:0rem;
+}
+
+/*Unused Implemtantation*/
+/*.checkout-product-preview-wrapper th{
+	color:white;
+	font-weight:lighter;
+	font-size:1.125rem;
+	text-align:left;
+}
+
+.checkout-product-preview-wrapper td{
+	color:white;
+	font-weight:lighter;
+	font-size:1.125rem;
+	text-align:right;
+}
+
+.checkout-product-preview-wrapper tbody > tr.subtotal-price > th{
+	padding-top:1.5rem;
+}
+
+.checkout-product-preview-wrapper tbody > .subtotal-price > td{
+	padding-top:1.5rem;
+}
+
+.checkout-product-preview-wrapper tfoot > .total-price > th{
+	color:white;
+	font-weight:bold;
+	font-size:1.125rem;
+	text-align:left;
+	padding-top:1.5rem;
+}
+
+.checkout-product-preview-wrapper tfoot > .total-price > td{
+	color:white;
+	font-weight:bold;
+	font-size:1.125rem;
+	text-align:right;
+	padding-left:5rem;
+	padding-top:1.5rem;
+}
+*/
+
+/* FAQ ELEMENT -------------------------------------------------------------------------------- */ 
 .faq-element-grid{
 	display:grid;
 	grid-template-columns:repeat(9,1fr);
 }
 
 .faq-element-wrapper{
-	grid-column: 1/span 9;
-	position: relative;
+	grid-column:1/span 9;
+	position:relative;
 }
-
 
 .faq-element-wrapper .down-arrow{
 	color:#FED10A;
@@ -652,46 +696,6 @@ button[type="quantity"]:hover{
 	opacity:1;
 }
 
-/*text styling*/
-/*.checkout-product-preview-wrapper th{
-	color:white;
-	font-weight:lighter;
-	font-size:1.125rem;
-	text-align:left;
-}
-
-.checkout-product-preview-wrapper td{
-	color:white;
-	font-weight:lighter;
-	font-size:1.125rem;
-	text-align:right;
-}
-
-.checkout-product-preview-wrapper tbody > tr.subtotal-price > th{
-	padding-top:1.5rem;
-}
-
-.checkout-product-preview-wrapper tbody > .subtotal-price > td{
-	padding-top:1.5rem;
-}
-
-.checkout-product-preview-wrapper tfoot > .total-price > th{
-	color:white;
-	font-weight:bold;
-	font-size:1.125rem;
-	text-align:left;
-	padding-top:1.5rem;
-}
-
-.checkout-product-preview-wrapper tfoot > .total-price > td{
-	color:white;
-	font-weight:bold;
-	font-size:1.125rem;
-	text-align:right;
-	padding-left:5rem;
-	padding-top:1.5rem;
-}
-*/
 
 /* TYPOGRAPHY SECTION -------------------------------------------------------------------------------- */ 
 .typography-heading{
