@@ -184,6 +184,12 @@
 		visibility: hidden;
 	}
 
+	.top-checkout img{
+		width:clamp(10vw, 100%, 50vw);
+		max-height:100%;
+		margin:auto;
+	}
+
 /* COLOR SECTION */ 
 
 	.color-swatches-grid{
