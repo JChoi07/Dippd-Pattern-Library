@@ -135,6 +135,12 @@ li{
 	margin-bottom: .25rem;
 }
 
+ol{
+	font-family: balloon-urw-drop-shadow, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
 /*.code-snippet{
 ;
 	display:flex;
@@ -245,10 +251,13 @@ input[type="number"]{
 
 /* MODULAR PATTERN ELEMENTS STYLING -------------------------------------------------------------------------------- */ 
 
+.modular-pattern-elements-section h3{
+	margin-top: 1.5rem;
+}
+
 /* MAIN NAVIGATION -------------------------------------------------------------------------------- */ 
 .main-nav-wrapper{
-	width:100%;
-	background-color:#6339A1;	
+	width:100%;	
 	display:flex;
 	justify-content: space-between;
 	align-items:center;
@@ -280,7 +289,6 @@ input[type="number"]{
 	align-items: center;
 	justify-content: center;
 	width:100%;
-	background-color:#6339A1;
 }
 
 .footer-copyright-wrapper p{
@@ -292,9 +300,9 @@ input[type="number"]{
 	grid-row:1;
 	display:flex;
 	align-items: baseline;
+	align-content: center;
 	justify-content: space-between;
 	width:100%;
-	background-color:#6339A1;
 
 	padding:3rem;
 	font-family:"ubuntu mono", monospace;
@@ -349,10 +357,6 @@ input[type="number"]{
 	margin:2.5rem 2.5rem 2.5rem 2.5rem;
 }
 
-#product-grid-item{
-	background-color:#FFB6D0;
-}
-
 .product-grid-wrapper{
 	display:grid;
 	grid-template-columns: repeat(3, 1fr);
@@ -363,6 +367,7 @@ input[type="number"]{
 	flex-direction: column;
 	justify-content: center;
 	align-self: center;
+	padding-bottom: 1rem;
 }
 
 .product-grid-item{
@@ -490,6 +495,25 @@ button[type="quantity"]:hover{
 	transform:scale(1.15);
 }
 
+/* PRODUCT GRID ITEM -------------------------------------------------------------------------------- */ 
+
+.order-tracker-bar-wrapper{
+	padding: 1rem 2rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.order-tracker-bar-wrapper h3,
+.order-tracker-bar-wrapper h4{
+	margin:0;
+}
+
+.order-tracker-bar-wrapper h4{
+	font-size:1rem;
+}
+
 /* SOCIAL MEDIA CARD -------------------------------------------------------------------------------- */ 
 .social-media-card-grid{
 	display:grid;
@@ -523,7 +547,6 @@ button[type="quantity"]:hover{
 	flex-direction:row;*/
 	display:grid;
 	grid-template-columns: 4fr 0.5fr; 
-	background:#55D1B9;
 	align-items:center;
 	padding:0 1rem;
 }
@@ -557,7 +580,6 @@ button[type="quantity"]:hover{
 /*this aside menu's size can take up the whole right side for the real website*/
 .checkout-product-preview-menu{	
 	padding:2.5rem 6.25rem 2.5rem 2.5rem;
-	background:#6339A1;
 }
 
 .checkout-product-preview-wrapper{
@@ -676,6 +698,8 @@ button[type="quantity"]:hover{
 .faq-element-wrapper{
 	grid-column:1/span 9;
 	position:relative;
+	padding-bottom: 1rem;
+	/*padding: 1rem 0;*/
 }
 
 .faq-element-wrapper .down-arrow{
@@ -689,12 +713,12 @@ button[type="quantity"]:hover{
 	color:#11362F;
 	grid-column-start: 9;
 	padding-left:0;
+	font-family: 'montserrat', sans-serif;
 }
 
 .faq-question{
 	display:grid;
 	grid-template-columns:repeat(9,1fr);
-	background-color:#2D6E62;
 	box-shadow:0.5rem 0.5rem #11362F;
 }
 
@@ -709,11 +733,11 @@ button[type="quantity"]:hover{
 
 .faq-answer{
 	position:absolute;
-	background-color:#FED10A;
 	display:grid;
 	grid-template-columns:repeat(9,1fr);
 	opacity:0;
 	transition: 0.3s ease;
+	box-shadow:0.5rem 0.5rem #11362F;
 	width:100%;
 	height:100%;
 	top:0;
@@ -734,7 +758,7 @@ button[type="quantity"]:hover{
 
 /* PRODUCT ORDER BOX OVERVIEW SECTION -------------------------------------------------------------------------------- */
 .product-order-box-overview-wrapper{ /*placeholder wrapper for background*/
-	background:#FFB6D0;
+/*	background:#FFB6D0;*/
 	padding:2.5rem;
 }
 
@@ -778,7 +802,7 @@ button[type="quantity"]:hover{
 	grid-column:1/7;
 	display:flex;
 	flex-direction:row;
-	align-content:center;
+	align-items:center;
 	justify-content: center;
 }
 
@@ -967,6 +991,10 @@ button[type="quantity"]:hover{
 }
 
 .burgundy-light{
+	background-color:#E04B8A;
+}
+
+.burgundy-white{
 	background-color:#FFB6D0;
 }
 
@@ -1029,12 +1057,20 @@ button[type="quantity"]:hover{
 .color-swatch-info{
 	width:100%;
 
-	padding:1rem;
+	padding:1.5rem 1rem;
 	display:flex;
 	flex-direction: column;
 	justify-content: space-between;
 }
 
+.color-swatch-info p{
+	margin-top:0;
+	margin-bottom:.5rem;
+}
+
+.color-swatch-info pre{
+	margin-bottom: 0;
+}
 
 /* HAMBURGER MENU --------------------------------------------------------------------------------- */ 
 
@@ -1052,7 +1088,7 @@ button[type="quantity"]:hover{
 	flex-direction: column;
 	text-align: center;
 	justify-content: center;
-	align-content: center;
+	align-items: center;
 	visibility: hidden;
 
 	position:fixed;

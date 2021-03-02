@@ -71,7 +71,7 @@
 }
 */
 /* Small Window Size Product Grid 2 Column */
-@media (max-width: 80em){
+@media (max-width: 88em){
 	.product-grid-wrapper{
 		grid-template-columns: repeat(2, 1fr);
 	}

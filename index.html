@@ -8,6 +8,7 @@
 	<title>Dipp'd UI Elements</title>
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;400;600&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Ubuntu+Mono:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.typekit.net/oxb2eij.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/grids.css">
 </head>
@@ -83,7 +84,15 @@
 				<div class="css-code">
 					<p>CSS Code</p>
 					<div class="css-code">
-					<pre><code>
+					<pre><code>a&lcub;
+							color:#001AFF;
+							display:inline-block;
+							transition: transform .2s; /* Animation */
+							&rcub;
+
+							a:hover&lcub;
+								transform:scale(1.05);
+							&rcub;
 					</code></pre>
 				</div>
 			</div>
@@ -103,7 +112,36 @@
 				<div class="css-code">
 					<p>CSS Code</p>
 					<div class="css-code">
-					<pre><code>
+					<pre><code>button&lcub;
+								font-family:"ubuntu mono", monospace;
+								font-weight:bold;
+								font-size:1rem;
+
+								color:black;
+								border-radius: 0;
+								border-style:solid;
+								border-color:black;
+								border-width:3px;
+								padding:1rem 2rem;
+
+								box-shadow: .5rem .5rem black;
+								background-color:#FED10A;
+								margin-right:1rem;
+
+								transition: transform .2s; /* Animation */
+							&rcub;
+
+							button[type]:hover&lcub;
+								transform:scale(1.05);
+							&rcub;
+
+							button.cta-button:focus{
+							outline:0rem;
+							}
+
+							button[type]:focus&lcub;
+								outline:0rem;
+							&rcub;
 					</code></pre>
 				</div>
 			</div>
@@ -125,7 +163,9 @@
 				<div class="css-code">
 					<p>CSS Code</p>
 					<div class="css-code">
-					<pre><code>
+					<pre><code>button[type="reset"]&lcub;
+							background-color:#c6c6c6
+							&rcub;
 					</code></pre>
 				</div>
 			</div>
@@ -187,29 +227,41 @@
 				
 				<div class="color-swatch-item primary">
 					<div class="color-swatch-info gold">
+						<p>gold</p>
 						<p>#FED10A</p>
-						<pre>R: 254<br>G: 209<br>B: 10</pre>
+						<pre>R: 254
+						G: 209
+						B: 10</pre>
 					</div>
 				</div>
 
 				<div class="color-swatch-item primary">
 					<div class="color-swatch-info violet">
+						<p>violet</p>
 						<p>#6339A1</p>
-						<pre>R: 99<br>G: 57<br>B: 161</pre>
+						<pre>R: 99
+						G: 57
+						B: 161</pre>
 					</div>
 				</div>
 
 				<div class="color-swatch-item primary">
 					<div class="color-swatch-info white">
+						<p>white</p>
 						<p>#FFFFFF</p>
-						<pre>R: 255<br>G: 255<br>B: 255</pre>
+						<pre>R: 255
+						G: 255
+						B: 255</pre>
 					</div>
 				</div>
 
 				<div class="color-swatch-item primary">
 					<div class="color-swatch-info black">
+						<p>black</p>
 						<p>#000000</p>
-						<pre>R: 0<br>G: 0<br>B: 0</pre>
+						<pre>R: 0
+							G: 0
+							B: 0</pre>
 					</div>
 				</div>
 
@@ -219,29 +271,41 @@
 
 				<div class="color-swatch-item information-content-pages">
 					<div class="color-swatch-info teal">
+						<p>teal</p>
 						<p>#2D6E62</p>
-						<pre>R: 45<br>G: 110<br>B: 98</pre>
+						<pre>R: 45
+						G: 110
+						B: 98</pre>
 					</div>
 				</div>
 
 				<div class="color-swatch-item information-content-pages">
 					<div class="color-swatch-info teal-dark">
+						<p>teal-dark</p>
 						<p>#194940</p>
-						<pre>R: 25<br>G: 73<br>B: 64</pre>
+						<pre>R: 25
+						G: 73
+						B: 64</pre>
 					</div>
 				</div>
 
 				<div class="color-swatch-item information-content-pages">
 					<div class="color-swatch-info teal-light">
+						<p>teal-light</p>
 						<p>#55D1B9</p>
-						<pre>R: 85<br>G: 209<br>B: 185</pre>
+						<pre>R: 85
+						G: 209
+						B: 185</pre>
 					</div>
 				</div>
 
 				<div class="color-swatch-item information-content-pages">
 					<div class="color-swatch-info teal-white">
+						<p>teal-white</p>
 						<p>#D5F3ED</p>
-						<pre>R: 213<br>G: 243<br>B: 237</pre>
+						<pre>R: 213
+						G: 243
+						B: 237</pre>
 					</div>
 				</div>
 
@@ -251,22 +315,41 @@
 
 				<div class="color-swatch-item shop-content-pages">
 					<div class="color-swatch-info burgundy">
+						<p>burgundy</p>
 						<p>#B92575</p>
-						<pre>R: 185<br>G: 37<br>B: 117</pre>
+						<pre>R: 185
+						G: 37
+						B: 117</pre>
 					</div>
 				</div>
 
 				<div class="color-swatch-item shop-content-pages">
 					<div class="color-swatch-info burgundy-dark">
+						<p>burgundy-dark</p>
 						<p>#84124F</p>
-						<pre>R: 132<br>G: 18<br>B: 79</pre>
+						<pre>R: 132
+						G: 18
+						B: 79</pre>
 					</div>
 				</div>
 
 				<div class="color-swatch-item shop-content-pages">
 					<div class="color-swatch-info burgundy-light">
+						<p>burgundy-light</p>
+						<p>#E04B8A</p>
+						<pre>R: 224
+						G: 75
+						B: 138</pre>
+					</div>
+				</div>
+
+				<div class="color-swatch-item shop-content-pages">
+					<div class="color-swatch-info burgundy-white">
+						<p>burgundy-white</p>
 						<p>#FFB6D0</p>
-						<pre>R: 255<br>G: 182<br>B: 208</pre>
+						<pre>R: 255
+						G: 182
+						B: 208</pre>
 					</div>
 				</div>
 			</div> <!-- end of color-swatches-grid div -->
@@ -409,8 +492,19 @@
 				</div>
 
 				<div class="css-code">
-					<pre><code>
+					<p>CSS Code</p>
+					<pre><code>/*For Regular Bullet Lists*/
 
+						/*DEFAULT*/
+
+
+						/*For Footer Lists*/
+						
+						.footer-grid-wrapper ul&lcub;
+						list-style-type:none;
+						margin:1rem 0;
+						padding:0;
+					&rcub;
 					</code></pre>
 				</div>
 			</div>
@@ -420,9 +514,9 @@
 		<section class="typography-heading" id="number-list">
 			<h3>Number List</h3>
 			<ol>
-				<li>Item Number One</li>
-				<li>Item Number Two</li>
-				<li>Item Number Three</li>
+				<li></li>
+				<li></li>
+				<li></li>
 			</ol>
 
 			<div class="code-snippet">
@@ -437,8 +531,12 @@
 				</div>
 
 				<div class="css-code">
-					<pre><code>
-
+					<p>CSS Code</p>
+					<pre><code>ol&lcub;
+							font-family: balloon-urw-drop-shadow, sans-serif;
+							font-weight: 400;
+							font-style: normal;
+						&rcub;
 					</code></pre>
 				</div>
 			</div>
@@ -446,10 +544,10 @@
 		</div> <!-- end of typography div -->
 
 		<div class="right-three-quarters">
+			
+		<section id="web-grid">
 			<h2 id="website-grid-structure">Website Grid Structure</h2>
 			<div class="divider-line"></div>
-
-		<section id="web-grid">
 
 			<!-- 12 Column Grid ------------------------------------------------------------------------------------------>
 			<h3>12 Column Grid</h3>
@@ -603,14 +701,14 @@
 		</section> 
 	</div><!-- end of website grid structure div -->
 
-		<div class="right-three-quarters">
+		<div class="right-three-quarters modular-pattern-elements-section">
 			<h2 id="modular-pattern-elements">Modular Pattern Elements</h2>
 			<div class="divider-line"></div>
 
 		<section id="main-nav">
 			<h3>Main Navigation</h3>
 			<p>Navigation bar at the top that will be used to navigate through the main pages of the site.</p>
-			<div class="main-nav-wrapper">
+			<div class="main-nav-wrapper violet">
 				<a href="#0"><img class="dippd-logo" src="img/dippd-logo.png" alt="dippd donuts branding logo"></a>
 				<nav class="main-nav-links">
 					<a href="#0">Shop</a>
@@ -654,17 +752,17 @@
 					</code></pre>
 				</div>
 			</div>
-		</section>
+		</section> <!-- end of main-nav section -->
 
-		<h3>Product Grid Item</h3>
-		<p>Product grid for the shopping page. Each item will have a photo, description, name, and dietary information. Users will be able to add or remove quantities through interacting with the buttons.</p>
 		<section id="product-grid-item">
+			<h3>Product Grid Item</h3>
+			<p>Product grid for the shopping page. Each item will have a photo, description, name, and dietary information. Users will be able to add or remove quantities through interacting with the buttons.</p>
 
-			<div class="product-grid-wrapper">
+			<div class="product-grid-wrapper burgundy-white">
 
 				<div class="product-grid-item-wrapper">
 					<div class="product-grid-item">
-						<img src="img/donut.png" alt="red berry donut with three stripes across the upper left corner">
+						<img src="img/donut-petals.png" alt="Wine glaze topped with a sprinkle of rose petals.">
 						<div class="product-grid-item-description">
 							<p>Wine glaze topped with a sprinkle of rose petals.</p>
 							<div class="product-grid-item-dietary">
@@ -688,9 +786,9 @@
 
 				<div class="product-grid-item-wrapper">
 					<div class="product-grid-item">
-						<img src="img/donut.png" alt="red berry donut with three stripes across the upper left corner">
+						<img src="img/donut-coconut.png" alt="A pillowy glazed donut encircled with delicate coconut shavings. Formed for all coconut lovers, you will be going “coco” for this.">
 						<div class="product-grid-item-description">
-							<p>Wine glaze topped with a sprinkle of rose petals.</p>
+							<p>A pillowy glazed donut encircled with delicate coconut shavings. Formed for all coconut lovers, you will be going “coco” for this.</p>
 							<div class="product-grid-item-dietary">
 								<p class="vegan">Vegan</p> + <p class="gluten-free">Gluten-free</p>
 							</div> <!-- end of product-grid-item-dietary div -->
@@ -698,7 +796,7 @@
 					</div> <!-- end of product-grid-item div -->
 
 					<div class="product-grid-item-info">
-						<h4>Petals</h4>
+						<h4>Coconut</h4>
 						<img src="img/vegan.png" alt="symbol to categorize this donut as vegan">
 						<img src="img/gluten-free.png" alt="symbol to categorize this donut as glueten-free">
 					</div>
@@ -712,9 +810,9 @@
 
 				<div class="product-grid-item-wrapper">
 					<div class="product-grid-item">
-						<img src="img/donut.png" alt="red berry donut with three stripes across the upper left corner">
+						<img src="img/donut-choco.png" alt="Layered chocolately goodness encase our original blend. With a double ganache glaze and chocolate bits, there’s cocoa in every bite.">
 						<div class="product-grid-item-description">
-							<p>Wine glaze topped with a sprinkle of rose petals.</p>
+							<p>Layered chocolately goodness encase our original blend. With a double ganache glaze and chocolate bits, there’s cocoa in every bite. </p>
 							<div class="product-grid-item-dietary">
 								<p class="vegan">Vegan</p> + <p class="gluten-free">Gluten-free</p>
 							</div> <!-- end of product-grid-item-dietary div -->
@@ -722,7 +820,7 @@
 					</div> <!-- end of product-grid-item div -->
 
 					<div class="product-grid-item-info">
-						<h4>Petals</h4>
+						<h4>Choco</h4>
 						<img src="img/vegan.png" alt="symbol to categorize this donut as vegan">
 						<img src="img/gluten-free.png" alt="symbol to categorize this donut as glueten-free">
 					</div>
@@ -912,7 +1010,54 @@
 								&rcub;</code></pre>
 				</div>
 			</div>
-		</section>
+		</section>  <!-- end of product-grid-item section -->
+
+		<section id="order-tracker-bar">
+			<h3>Order Tracker Bar</h3>
+			<p>This thing will be sticky at the bottom and keep track of the order's bill.</p>
+
+			<div class="order-tracker-bar-wrapper burgundy-light">
+				<div class="order-bill-wrapper">
+					<h3>Subtotal $0.00</h3>
+					<h4>0 / 6 Donuts Selected</h4>
+				</div>
+				<a href="#0"><button>Review Order</button></a>
+			</div>
+
+			<div class="code-snippet">
+				<div class="html-code">
+					<p>HTML Code</p>
+					<pre><code>&lt;div class="order-tracker-bar-wrapper burgundy-light"&gt;
+				&lt;div class="order-bill-wrapper"&gt;
+					&lt;h3&gt;Subtotal $0.00&lt;/h3&gt;
+					&lt;h4&gt;0 / 6 Donuts Selected&lt;/h4&gt;
+				&lt;/div&gt;
+				&lt;a href="#0"&gt;&lt;button&gt;Review Order&lt;/button&gt;&lt;/a&gt;
+			&lt;/div&gt;
+					</code></pre>
+				</div>
+
+				<div class="css-code">
+					<p>CSS Code</p>
+					<pre><code>.order-tracker-bar-wrapper&lcub;
+								padding: 1rem 2rem;
+								display: flex;
+								flex-direction: row;
+								justify-content: space-between;
+								align-items: center;
+							&rcub;
+
+							.order-tracker-bar-wrapper h3,
+							.order-tracker-bar-wrapper h4&lcub;
+								margin:0;
+							&rcub;
+
+							.order-tracker-bar-wrapper h4&lcub;
+								font-size:1rem;
+							&rcub;
+							</code></pre>
+
+		</section> <!-- end of order-tracker-bar section -->
 
 		<section id="footer">
 			<h3>Footer</h3>
@@ -921,7 +1066,7 @@
 
 			<div class="container-footer-1600">
 				<div class="footer-grid-wrapper"> <!-- grid just to add another row with the ©copyright -->
-					<div class="footer-list-wrapper">
+					<div class="footer-list-wrapper violet">
 
 						<div class="footer-icons-wrapper"> 
 							<img class="dippd-logo" src="img/dippd-logo.png" alt="dippd donuts branding logo">
@@ -974,7 +1119,7 @@
 						</div>
 					</div> <!-- end of footer-list-wrapper div -->
 
-					<div class="footer-copyright-wrapper">
+					<div class="footer-copyright-wrapper violet">
 						<p>© Copyright 2021 Dipp’d Donuts. All rights reserved. Website proudly created by E-Donuts Team</p>
 					</div>
 				</div> <!-- end of footer-grid-wrapper div -->
@@ -1125,11 +1270,12 @@
 					</code></pre>
 				</div>
 			</div>
-		</section>
+		</section> <!-- end of footer section -->
 
 		<section id="social-media-card">
 			<h3>Social Media Card</h3>
 			<p>Used on the landing page, this social media container displays instagram posts from Dipp'd customers that provides information for newcomers on what the brand is and how others are receiving it. The container itself always contains an image, a text area and a lower "author" bar. Users are encouraged from this element to learn more and join the Dipp'd movement.</p>
+			
 			<div class="social-media-card-grid">
 				<div class="social-media-card-wrapper">
 					<div class="social-media-card-image">
@@ -1140,7 +1286,7 @@
 						<p>London fogs & vegan donuts season is upon us 😇</p>
 					</div>
 
-					<div class="social-media-card-footer">
+					<div class="social-media-card-footer teal-light">
 						<div class="social-media-card-tag">	
 							<p>@moeliseismail</p>
 						</div>
@@ -1151,7 +1297,6 @@
 
 				</div>
 			</div>
-		</section>
 
 		<div class="code-snippet">
 			<div class="html-code">
@@ -1228,14 +1373,14 @@
 					&rcub;
 				</code></pre>
 			</div>
-
 		</div>
-		</section>
+		</section> <!-- end of social-media-card section -->
 
 		<section id="checkout-product-preview">
 			<h3>Checkout Product Preview</h3>
 			<p>This checkout product preview organism is found on the checkout page that provides users with information on their current order. An image representation of the users order (in the form of a box) is presented along with details regarding their items and price.</p>
-			<div class="checkout-product-preview-menu">
+			
+			<div class="checkout-product-preview-menu violet">
 				<div class="checkout-product-preview-wrapper">
 					<div class="top-checkout">
 						<img src="img/donut-box-example.png" alt="An image of a donut box order">
@@ -1410,13 +1555,14 @@
 		<section id="faq-element">
 			<h3>FAQ UI Element</h3>
 			<p>Found on the FAQ page. For the desktop version, when the user hovers over the question, the answer shows. In the mobile, when the user touches the question, the answer will show. This element will be repeated for all questions on the page.</p>
+			
 			<div class= "faq-element-grid">
 				<div class= "faq-element-wrapper">
-					<div class= "faq-question">
+					<div class= "faq-question teal">
 						<p>I live in Vancouver, can I order Dipp’d donuts online?</p>
 						<p class= "down-arrow">▼</p>
 					</div>
-					<div class= "faq-answer">
+					<div class= "faq-answer gold">
 						<p>Unfortunately, Dipp’d only ships within the area of greater Toronto.</p>
 						<p class= "up-arrow">▲</p>
 					</div>
@@ -1428,11 +1574,11 @@
 					<p>HTML Code</p>
 					<pre><code>&lt;div class= "faq-element-grid"&gt;
 							&lt;div class= "faq-element-wrapper"&gt;
-								&lt;div class= "faq-question"&gt;
+								&lt;div class= "faq-question teal"&gt;
 									&lt;p>I live in Vancouver, can I order Dipp’d donuts online?&lt;/p&gt;
 									&lt;p class= "down-arrow"&gt;▼&lt;/p&gt;
 								&lt;/div>
-								&lt;div class= "faq-answer"&gt;
+								&lt;div class= "faq-answer gold"&gt;
 									&lt;p>Unfortunately, Dipp’d only ships within the area of greater Toronto.&lt;/p&gt;
 									&lt;p class= "up-arrow"&gt;▲&lt;/p&gt;
 								&lt;/div&gt;
@@ -1505,7 +1651,6 @@
 						.faq-element-wrapper:hover .faq-answer&lcub;
 							opacity:1;
 						&rcub;
-
 					</code></pre>
 				</div>
 			</div>
@@ -1514,7 +1659,8 @@
 		<section id="product-order-box-overview">
 			<h3>Product Order Box Overview</h3>
 			<p>Found on the My Box page, this product order box overview organism displays to the user their current order at Dipp'd Donuts with a representation of their box. 6 donuts are shown at a time with the counter below detailing how many boxes are part of the order. This organism allows users to click through and see what donuts they have, or return back to the shopping page.</p>
-			<div class="product-order-box-overview-wrapper"> <!-- placeholder for background color -->
+			
+			<div class="product-order-box-overview-wrapper burgundy-white"> <!-- placeholder for background color -->
 				<div class="product-order-box-overview-grid">
 					<div class="product-order-box-overview-return">
 						<p class="left-arrow"><a href="#0">◀</a></p>
@@ -1627,6 +1773,7 @@
 		<section id= "product-order-donut-counters">
 			<h3>Product Order Page Donut Counters</h3>
 			<p>This will be on the box overview page. The user will be able to see their selections and either remove or quick add donuts to their box.</p>
+			
 			<div class= "product-order-donut-counters-wrapper">
 				<div class= "product-order-donut-counters-grid">
 					 <h2>Dipp'd Box(es)</h2>
@@ -1677,7 +1824,7 @@
 					 <a href="#0"><button class="cta-button">Checkout</button></a>
 				</div>
 			</div>
-		</section>
+		</section> <!-- end of product-order-donut-counters section -->
 	</div> <!-- end of modular elements div -->
 </div> <!-- end of grid div -->
 </div> <!-- end of container-1600 div -->
