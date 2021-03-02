@@ -797,12 +797,14 @@ button[type="quantity"]:hover{
 	grid-row:1;
 	color:#84124F;
 	margin-bottom:0.5rem;
+	font-weight:bold;
 }
 
 .product-order-donut-counters-grid h4{
 	grid-column:1;
 	grid-row:2;
 	margin-top:0;
+	font-weight:bold;
 }
 
 .product-order-donut-counters-grid h3{
