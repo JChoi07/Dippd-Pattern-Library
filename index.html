@@ -8,6 +8,7 @@
 	<title>Dipp'd UI Elements</title>
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;400;600&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Ubuntu+Mono:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.typekit.net/oxb2eij.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/grids.css">
 </head>
@@ -83,7 +84,15 @@
 				<div class="css-code">
 					<p>CSS Code</p>
 					<div class="css-code">
-					<pre><code>
+					<pre><code>a&lcub;
+							color:#001AFF;
+							display:inline-block;
+							transition: transform .2s; /* Animation */
+							&rcub;
+
+							a:hover&lcub;
+								transform:scale(1.05);
+							&rcub;
 					</code></pre>
 				</div>
 			</div>
@@ -103,7 +112,36 @@
 				<div class="css-code">
 					<p>CSS Code</p>
 					<div class="css-code">
-					<pre><code>
+					<pre><code>button&lcub;
+								font-family:"ubuntu mono", monospace;
+								font-weight:bold;
+								font-size:1rem;
+
+								color:black;
+								border-radius: 0;
+								border-style:solid;
+								border-color:black;
+								border-width:3px;
+								padding:1rem 2rem;
+
+								box-shadow: .5rem .5rem black;
+								background-color:#FED10A;
+								margin-right:1rem;
+
+								transition: transform .2s; /* Animation */
+							&rcub;
+
+							button[type]:hover&lcub;
+								transform:scale(1.05);
+							&rcub;
+
+							button.cta-button:focus{
+							outline:0rem;
+							}
+
+							button[type]:focus&lcub;
+								outline:0rem;
+							&rcub;
 					</code></pre>
 				</div>
 			</div>
@@ -125,7 +163,9 @@
 				<div class="css-code">
 					<p>CSS Code</p>
 					<div class="css-code">
-					<pre><code>
+					<pre><code>button[type="reset"]&lcub;
+							background-color:#c6c6c6
+							&rcub;
 					</code></pre>
 				</div>
 			</div>
@@ -409,8 +449,19 @@
 				</div>
 
 				<div class="css-code">
-					<pre><code>
+					<p>CSS Code</p>
+					<pre><code>/*For Regular Bullet Lists*/
 
+						/*DEFAULT*/
+
+
+						/*For Footer Lists*/
+						
+						.footer-grid-wrapper ul&lcub;
+						list-style-type:none;
+						margin:1rem 0;
+						padding:0;
+					&rcub;
 					</code></pre>
 				</div>
 			</div>
@@ -420,9 +471,9 @@
 		<section class="typography-heading" id="number-list">
 			<h3>Number List</h3>
 			<ol>
-				<li>Item Number One</li>
-				<li>Item Number Two</li>
-				<li>Item Number Three</li>
+				<li></li>
+				<li></li>
+				<li></li>
 			</ol>
 
 			<div class="code-snippet">
@@ -437,8 +488,12 @@
 				</div>
 
 				<div class="css-code">
-					<pre><code>
-
+					<p>CSS Code</p>
+					<pre><code>ol&lcub;
+							font-family: balloon-urw-drop-shadow, sans-serif;
+							font-weight: 400;
+							font-style: normal;
+						&rcub;
 					</code></pre>
 				</div>
 			</div>
