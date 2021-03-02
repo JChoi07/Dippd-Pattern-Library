@@ -24,7 +24,7 @@
 
 .left-quarter{
 	background-color: #EEE;
-	height:100vh;
+	min-height:50vh;
 	display:flex;
 	flex-direction:column;
 	grid-column:1/4;
