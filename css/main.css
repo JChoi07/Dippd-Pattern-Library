@@ -251,6 +251,10 @@ input[type="number"]{
 
 /* MODULAR PATTERN ELEMENTS STYLING -------------------------------------------------------------------------------- */ 
 
+.modular-pattern-elements-section h3{
+	margin-top: 1.5rem;
+}
+
 /* MAIN NAVIGATION -------------------------------------------------------------------------------- */ 
 .main-nav-wrapper{
 	width:100%;
@@ -355,13 +359,10 @@ input[type="number"]{
 	margin:2.5rem 2.5rem 2.5rem 2.5rem;
 }
 
-#product-grid-item{
-	background-color:#FFB6D0;
-}
-
 .product-grid-wrapper{
 	display:grid;
 	grid-template-columns: repeat(3, 1fr);
+	background-color:#FFB6D0;
 }
 
 .product-grid-item-wrapper{
@@ -369,6 +370,7 @@ input[type="number"]{
 	flex-direction: column;
 	justify-content: center;
 	align-self: center;
+	padding-bottom: 1rem;
 }
 
 .product-grid-item{
