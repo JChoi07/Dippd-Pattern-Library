@@ -33,6 +33,7 @@
 						<a href=#basic-interactive-elements>Basic Interactive Elements</a>
 						<a href=#colors>Colors</a>
 						<a href=#typography>Typography</a>
+						<a href=#website-grid-structure>Web Grid Structure</a>
 						<a href=#modular-pattern-elements>Modular Pattern Elements</a>
 						<div class="divider-line"></div>
 						<a href="#index.html"><img src="img/d-logo.png" alt="dripping d" class="d-logo"></a>
@@ -60,6 +61,7 @@
 			<a href=#basic-interactive-elements>Basic Interactive Elements</a>
 			<a href=#colors>Colors</a>
 			<a href=#typography>Typography</a>
+			<a href=#website-grid-structure>Web Grid Structure</a>
 			<a href=#modular-pattern-elements>Modular Pattern Elements</a>
 		</aside>
 		
@@ -281,12 +283,13 @@
 			<h1>Montserrat. This is our heading typeface.</h1>
 				<div class="code-snippet">
 					<div class="html-code">
-						<p>Code:</p>
+						<p>HTML Code</p>
 						<pre><code>&lt;h1&gt;H1 Heading&lt;/h1&gt;
 						</code></pre>
 					</div>
 
 					<div class="css-code">
+					<p>CSS Code</p>
 					<pre><code>h1&lcub;
 						font-size:4rem;
 					&rcub;
@@ -442,326 +445,15 @@
 		</section>
 		</div> <!-- end of typography div -->
 
-
 		<div class="right-three-quarters">
-			<h2 id="modular-pattern-elements">Modular Pattern Elements</h2>
+			<h2 id="website-grid-structure">Website Grid Structure</h2>
 			<div class="divider-line"></div>
 
-		<section id="main-nav">
-			<h3>Main Navigation</h3>
-			<div class="main-nav">
-				<a href="#0"><img class="dippd-logo" src="img/dippd-logo.png" alt="dippd donuts branding logo"></a>
-				<nav class="main-nav-wrapper">
-					<a href="#0">Shop</a>
-					<a href="#0">About Us</a>
-					<a href="#0">
-					<div class="cart-icon"></div>
-					</a>
-				</nav>
-			</div>
-
-			<div class="code-snippet">
-				<div class="html-code">
-					<p>HTML Code</p>
-					<pre><code>&lt;nav&gt;
-						&lt;a href="index.html"&gt;&lt;img src="directory.png" alt="Dipp'd shop logo"&gt;&lt;/a&gt;
-						&lt;a href="products.html"&gt;Shop&lt;/a&gt;
-						&lt;a href="about.html"&gt;About Us&lt;/a&gt;
-						&lt;a href="cart.html"&gt;
-						&lt;div class="cart-icon"&gt;&lt;/div&gt;
-						&lt;/a&gt;
-						&lt;/nav&gt;
-					</code></pre>
-				</div>
-
-				<div class="css-code">
-					<p>CSS Code</p>
-					<pre><code>.main-nav&lcub;
-							width:100%;
-							background-color:#6339A1;	
-							display:flex;
-							justify-content: space-between;
-							align-items:center;
-							padding: 1rem 2rem;
-						&rcub;
-
-						.main-nav-wrapper&lcub;
-							display:flex;
-							justify-content: space-between;
-							align-items:center;
-						&rcub;
-					</code></pre>
-				</div>
-			</div>
-		</section>
-
-		<h3>Product Grid Item</h3>
-		<section id="product-grid-item">
-
-			<div class="product-grid">
-
-				<div class="product-grid__item">
-					<div class="product-grid__item-img-wrapper">
-						<img src="img/donut.png" alt="red berry donut with three stripes across the upper left corner">
-						
-						<div class="product-grid__item-text">
-							<p>Wine glaze topped with a sprinkle of rose petals.</p>
-							<div class="product-grid__item-text-dietary">
-								<p class="vegan">Vegan</p> + <p class="gluten-free">Gluten-free</p>
-							</div> <!-- end of product-grid__item-text-dietary div -->
-						</div> <!-- end of product-grid__item-text div -->
-					</div> <!-- end of product-grid__item-img-wrapper div -->
-
-					<div class="product-grid__item-info">
-						<h4>Petals</h4>
-						<img src="img/vegan.png" alt="symbol to categorize this donut as vegan">
-						<img src="img/gluten-free.png" alt="symbol to categorize this donut as glueten-free">
-					</div>
-					
-					<div class="product-grid__item-quantity">
-						<button type="quantity">-</button>
-						<input type="number" placeholder="0" id="input-quantity" name="quantity" min="0">
-						<button type="quantity">+</button>
-					</div>
-				</div>
-
-
-				<div class="product-grid__item">
-					<div class="product-grid__item-img-wrapper">
-						<img src="img/donut.png" alt="red berry donut with three stripes across the upper left corner">
-						
-						<div class="product-grid__item-text">
-							<p>Wine glaze topped with a sprinkle of rose petals.</p>
-							<div class="product-grid__item-text-dietary">
-								<p class="vegan">Vegan</p> + <p class="gluten-free">Gluten-free</p>
-							</div> <!-- end of product-grid__item-text-dietary div -->
-						</div> <!-- end of product-grid__item-text div -->
-					</div> <!-- end of product-grid__item-img-wrapper div -->
-
-					<div class="product-grid__item-info">
-						<h4>Petals</h4>
-						<img src="img/vegan.png" alt="symbol to categorize this donut as vegan">
-						<img src="img/gluten-free.png" alt="symbol to categorize this donut as glueten-free">
-					</div>
-					
-					<div class="product-grid__item-quantity">
-						<button type="quantity">-</button>
-						<input type="number" placeholder="0" id="input-quantity" name="quantity" min="0">
-						<button type="quantity">+</button>
-					</div>
-				</div>
-
-				
-				<div class="product-grid__item">
-					<div class="product-grid__item-img-wrapper">
-						<img src="img/donut.png" alt="red berry donut with three stripes across the upper left corner">
-						
-						<div class="product-grid__item-text">
-							<p>Wine glaze topped with a sprinkle of rose petals.</p>
-							<div class="product-grid__item-text-dietary">
-								<p class="vegan">Vegan</p> + <p class="gluten-free">Gluten-free</p>
-							</div> <!-- end of product-grid__item-text-dietary div -->
-						</div> <!-- end of product-grid__item-text div -->
-					</div> <!-- end of product-grid__item-img-wrapper div -->
-
-					<div class="product-grid__item-info">
-						<h4>Petals</h4>
-						<img src="img/vegan.png" alt="symbol to categorize this donut as vegan">
-						<img src="img/gluten-free.png" alt="symbol to categorize this donut as glueten-free">
-					</div>
-					
-					<div class="product-grid__item-quantity">
-						<button type="quantity">-</button>
-						<input type="number" placeholder="0" id="input-quantity" name="quantity" min="0">
-						<button type="quantity">+</button>
-					</div>
-				</div>
-
-			</div>
-
-			<div class="code-snippet">
-				<div class="html-code">
-					<p>HTML Code</p>
-					<pre><code>&lt;div class="product-grid__item"&gt;
-						&lt;div class="product-grid__item-img-wrapper"&gt;
-						&lt;img src="image-directory.png" alt="description of image"&gt;
-						&lt;div class="product-grid__item-details"&gt;<
-						&lt;p&gt;product description text&lt;br&gt;&lt;p&gt;
-						class="vegan">Vegan&lt;.p&gt; + &lt;p class="gluten-free"&gt;
-						Gluten-free&lt;/p&gt;&lt;/p&gt;
-						&lt;/div&gt; &lt;!-- end of product-grid-item-details div --&gt;
-						&lt;/div&gt; &lt;!-- end of product-grid__item-img-wrapper div --&gt;
-						
-						&lt;div class="product-grid__item-info"&gt;
-						&lt;h4&gt;product name&lt;/h4&gt;
-						&lt;img src="icon1-directory.png" alt="description of second icon"&gt;
-						&lt;img src="icon2-directory.png" alt="description of second icon"&gt;
-						&lt;/div&gt;
-						
-						&lt;div class="product-grid__item-quantity"&gt;
-						&lt;button type="quantity"&gt;-&lt;/button&gt;
-						&lt;input type="number" placeholder="0" id="quantity" name="quantity" min="0"&gt;
-						&lt;button type="quantity"&gt;+&lt;/button&gt;
-						&lt;/div&gt; &lt;!-- end of product-grid__item-quantity div --&gt;
-						&lt;/div&gt; &lt;!-- end of product-grid-item div --&gt;
-					</code></pre>
-				</div>
-
-				<div class="css-code">
-					<p>CSS Code</p>
-					<pre><code>.product-grid__item&lcub;
-							margin:2.5rem 2.5rem 2.5rem 2.5rem;
-						&rcub;
-
-						#product-grid-item&lcub;
-							background-color:#FFB6D0;
-						&rcub;
-
-						.product-grid&lcub;
-							display:grid;
-							grid-template-columns: repeat(3, 1fr);
-						&rcub;
-
-						.vegan&lcub;
-							display:inline;
-							color:#64D9C2;
-						&rcub;
-
-						.gluten-free&lcub;
-							display:inline;
-							color:#FFF5C0;
-						&rcub;
-
-						.product-grid__item&lcub;
-							display:flex;
-							flex-direction: column;
-							justify-content: center;
-							align-self: center;
-						&rcub;
-
-						.product-grid__item-info&lcub;
-							display:flex;
-							justify-content: center;
-							align-content: center;
-						&rcub;
-						.product-grid__item-info img&lcub;
-							align-self: center;
-							margin-left:.5rem;
-						&rcub;
-
-						.product-grid__item-quantity &lcub;
-							display: flex;
-							justify-content: center;
-							align-items: center;
-						&rcub;
-
-						input[type="number"]&lcub;
-							font-family:"ubuntu mono", monospace;
-
-							text-align: center;
-
-							margin-top:0;
-							padding:.5rem;
-							width:3rem;
-							margin:0 .5rem;
-
-							border-radius:5px;
-							border: 1px solid #CCC;
-
-							box-shadow: none;
-						&rcub;
-
-						input[type="number"]::placeholder&lcub;
-							color:#ddd;
-						&rcub;
-
-						input[type=number]::-webkit-inner-spin-button, 
-						input[type=number]::-webkit-outer-spin-button &lcub; 
-						  -webkit-appearance: none;
-						&rcub;
-
-						button[type="quantity"]&lcub;
-							font-family:"ubuntu mono", monospace;
-							font-weight:bold;
-							font-size:1rem;
-							color:black;
-
-							width:2rem;
-							height:2rem;
-							border:none;
-							border-radius: 50%;
-							padding:0rem;
-							background-color:#FED10A;
-							box-shadow:none;
-							margin-right:0;
-
-							transition: transform .2s; /* Animation */
-						&rcub;
-
-						button[type="quantity"]:hover&lcub;
-							transform:scale(1.15);
-						&rcub;
-
-						.product-grid__item-img-wrapper&lcub;
-							position:relative;
-							display:flex;
-							flex-direction: column;
-							justify-content: center;
-							align-content: center;
-							z-index: 0;
-						&rcub;
-
-						.product-grid__item-img-wrapper img&lcub;
-							width: clamp(10vw,100%,50vw);
-							max-height: 100%;
-							margin:auto;
-						&rcub;
-
-						.product-grid__item-text&lcub;
-							position:absolute;
-							color:white;
-							width:100%;
-							height:100%;
-							border-radius: 10px;
-							text-align: center;
-							padding:5%;
-
-							display:flex;
-							flex-direction: column;
-							align-content: center;
-							justify-content: center;
-
-							opacity: 0;
-							transition: opacity .2s;
-						&rcub;
-
-						.product-grid__item-text > p&lcub;
-							margin-top:0;
-						&rcub;
-
-						.product-grid__item-text-dietary&lcub;
-							display:inline;
-						&rcub;
-
-						.product-grid__item-text:hover&lcub;
-							opacity: 1;
-
-							display:flex;
-							flex-direction: column;
-							align-content: center;
-							justify-content: center;
-
-							background-color: rgba(0,0,0,0.7);
-						&rcub;
-
-					</code></pre>
-				</div>
-			</div>
-		</section>
-
 		<section id="web-grid">
-			<h3>Website Grid Structure</h3>
 
+			<!-- 12 Column Grid ------------------------------------------------------------------------------------------>
+			<h3>12 Column Grid</h3>
+			<p>For flexible layouts the 12 column grid is the foundation for the site's overall structure</p>
 			<div class="grid-structure">
 				<div class="placeholder-content">1</div>
 				<div class="placeholder-content">2</div>
@@ -776,8 +468,7 @@
 				<div class="placeholder-content">11</div>
 				<div class="placeholder-content">12</div>
 			</div>
-			<p>12 column grid for flexible layouts<br><i>Overview structure</i></p>
-
+			
 			<div class="code-snippet">
 				<div class="html-code">
 					<p>HTML Code</p>
@@ -808,15 +499,17 @@
 				</div>
 			</div>
 
+			<!-- 2 Column Grid ------------------------------------------------------------------------------------------>
+			<h3>2 Column Grid</h3>
+			<p>Use Cases: Cart Overview Page</p>
 			<div class="grid-structure">
 				<div class="placeholder-content half teal-light">50%</div>
 				<div class="placeholder-content half teal-light">50%</div>
 			</div>
-			<p>2 column grid<br><i>Use Cases: Cart Overview Page</i></p>
 
 			<div class="code-snippet">
 				<div class="html-code">
-					<p>Code:</p>
+					<p>HTML Code</p>
 					<pre><code>&lt;div class="grid-structure"&gt;
 						&lt;div class="placeholder-content half"&gt;1&lt;/div&gt;
 						&lt;div class="placeholder-content half"&gt;2&lt;/div&gt;
@@ -825,24 +518,27 @@
 				</div>
 
 				<div class="css-code">
+					<p>CSS Code</p>
 					<pre><code>.grid-structure&lcub;
 						display:grid;
 						grid-template-columns:repeat(12, 1fr);
 						&rcub;
 
 						.third&lcub;
-						grid-column:span 4;
+						grid-column:span 6;
 						&rcub;
 					</code></pre>
 				</div>
 			</div>
 
+			<!-- 3 Column Grid ------------------------------------------------------------------------------------------>
+			<h3>3 Column Grid</h3>
+			<p>Use Cases: Featured Products Section</p>
 			<div class="grid-structure">
 				<div class="placeholder-content third gold">33%</div>
 				<div class="placeholder-content third gold">33%</div>
 				<div class="placeholder-content third gold">33%</div>
 			</div>
-			<p>3 column grid<br><i>Use Cases: Featured Products Section</i></p>
 
 			<div class="code-snippet">
 				<div class="html-code">
@@ -869,13 +565,15 @@
 				</div>
 			</div>
 
+			<!-- 4 Column Grid ------------------------------------------------------------------------------------------>
+			<h3>4 column grid</h3>
+			<p>Use Cases: Product Page</p>
 			<div class="grid-structure">
 				<div class="placeholder-content quarter burgundy">25%</div>
 				<div class="placeholder-content quarter burgundy">25%</div>
 				<div class="placeholder-content quarter burgundy">25%</div>
 				<div class="placeholder-content quarter burgundy">25%</div>
 			</div>
-			<p>4 column grid<br><i>Use Cases: Product Page</i></p>
 
 			<div class="code-snippet">
 				<div class="html-code">
@@ -902,17 +600,330 @@
 					</code></pre>
 				</div>
 			</div>
+		</section> 
+	</div><!-- end of website grid structure div -->
+
+		<div class="right-three-quarters">
+			<h2 id="modular-pattern-elements">Modular Pattern Elements</h2>
+			<div class="divider-line"></div>
+
+		<section id="main-nav">
+			<h3>Main Navigation</h3>
+			<p>Navigation bar at the top that will be used to navigate through the main pages of the site.</p>
+			<div class="main-nav-wrapper">
+				<a href="#0"><img class="dippd-logo" src="img/dippd-logo.png" alt="dippd donuts branding logo"></a>
+				<nav class="main-nav-links">
+					<a href="#0">Shop</a>
+					<a href="#0">About Us</a>
+					<a href="#0"><div class="cart-icon"></div></a>
+				</nav>
+			</div>
+
+			<div class="code-snippet">
+				<div class="html-code">
+					<p>HTML Code</p>
+					<pre><code>&lt;div class="main-nav-wrapper"&gt;
+						&lt;a href=index.html&gt;&lt;img class="dippd-logo" src="img/dippd-logo.png" alt="dippd donuts branding logo"&gt;&lt;/a&gt;
+
+						&lt;nav class="main-nav-links&gt;
+						&lt;a href="index.html"&gt;&lt;img src="directory.png" alt="Dipp'd shop logo"&gt;&lt;/a&gt;
+						&lt;a href="products.html"&gt;Shop&lt;/a&gt;
+						&lt;a href="about.html"&gt;About Us&lt;/a&gt;
+						&lt;a href="cart.html"&gt;&lt;div class="cart-icon"&gt;&lt;/div&gt;&lt;/a&gt;
+						&lt;/nav&gt;
+						&lt;/div&gt;
+					</code></pre>
+				</div>
+
+				<div class="css-code">
+					<p>CSS Code</p>
+					<pre><code>.main-nav-wrapper&lcub;
+							width:100%;
+							background-color:#6339A1;	
+							display:flex;
+							justify-content: space-between;
+							align-items:center;
+							padding: 1rem 2rem;
+						&rcub;
+
+						.main-nav-links&lcub;
+							display:flex;
+							justify-content: space-between;
+							align-items:center;
+						&rcub;
+					</code></pre>
+				</div>
+			</div>
+		</section>
+
+		<h3>Product Grid Item</h3>
+		<p>Product grid for the shopping page. Each item will have a photo, description, name, and dietary information. Users will be able to add or remove quantities through interacting with the buttons.</p>
+		<section id="product-grid-item">
+
+			<div class="product-grid-wrapper">
+
+				<div class="product-grid-item-wrapper">
+					<div class="product-grid-item">
+						<img src="img/donut.png" alt="red berry donut with three stripes across the upper left corner">
+						<div class="product-grid-item-description">
+							<p>Wine glaze topped with a sprinkle of rose petals.</p>
+							<div class="product-grid-item-dietary">
+								<p class="vegan">Vegan</p> + <p class="gluten-free">Gluten-free</p>
+							</div> <!-- end of product-grid-item-dietary div -->
+						</div> <!-- end of product-grid-item-description div -->
+					</div> <!-- end of product-grid-item div -->
+
+					<div class="product-grid-item-info">
+						<h4>Petals</h4>
+						<img src="img/vegan.png" alt="symbol to categorize this donut as vegan">
+						<img src="img/gluten-free.png" alt="symbol to categorize this donut as glueten-free">
+					</div>
+					
+					<div class="product-grid-item-quantity">
+						<button type="quantity">-</button>
+						<input type="number" placeholder="0" id="input-quantity" name="quantity" min="0">
+						<button type="quantity">+</button>
+					</div>
+				</div> <!-- end of product-grid-item-wrapper div -->
+
+				<div class="product-grid-item-wrapper">
+					<div class="product-grid-item">
+						<img src="img/donut.png" alt="red berry donut with three stripes across the upper left corner">
+						<div class="product-grid-item-description">
+							<p>Wine glaze topped with a sprinkle of rose petals.</p>
+							<div class="product-grid-item-dietary">
+								<p class="vegan">Vegan</p> + <p class="gluten-free">Gluten-free</p>
+							</div> <!-- end of product-grid-item-dietary div -->
+						</div> <!-- end of product-grid-item-description div -->
+					</div> <!-- end of product-grid-item div -->
+
+					<div class="product-grid-item-info">
+						<h4>Petals</h4>
+						<img src="img/vegan.png" alt="symbol to categorize this donut as vegan">
+						<img src="img/gluten-free.png" alt="symbol to categorize this donut as glueten-free">
+					</div>
+					
+					<div class="product-grid-item-quantity">
+						<button type="quantity">-</button>
+						<input type="number" placeholder="0" id="input-quantity" name="quantity" min="0">
+						<button type="quantity">+</button>
+					</div>
+				</div> <!-- end of product-grid-item-wrapper div -->
+
+				<div class="product-grid-item-wrapper">
+					<div class="product-grid-item">
+						<img src="img/donut.png" alt="red berry donut with three stripes across the upper left corner">
+						<div class="product-grid-item-description">
+							<p>Wine glaze topped with a sprinkle of rose petals.</p>
+							<div class="product-grid-item-dietary">
+								<p class="vegan">Vegan</p> + <p class="gluten-free">Gluten-free</p>
+							</div> <!-- end of product-grid-item-dietary div -->
+						</div> <!-- end of product-grid-item-description div -->
+					</div> <!-- end of product-grid-item div -->
+
+					<div class="product-grid-item-info">
+						<h4>Petals</h4>
+						<img src="img/vegan.png" alt="symbol to categorize this donut as vegan">
+						<img src="img/gluten-free.png" alt="symbol to categorize this donut as glueten-free">
+					</div>
+					
+					<div class="product-grid-item-quantity">
+						<button type="quantity">-</button>
+						<input type="number" placeholder="0" id="input-quantity" name="quantity" min="0">
+						<button type="quantity">+</button>
+					</div>
+				</div> <!-- end of product-grid-item-wrapper div -->
+			</div>
+
+			<div class="code-snippet">
+				<div class="html-code">
+					<p>HTML Code</p>
+					<pre><code>&lt;div class="product-grid-item-wrapper"&gt;
+					&lt;div class="product-grid-item"&gt;
+						&lt;img src="img/donut.png" alt="red berry donut with three stripes across the upper left corner"&gt;
+						&lt;div class="product-grid-item-description"&gt;
+							&lt;p>Wine glaze topped with a sprinkle of rose petals.&lt;/p&gt;
+							&lt;div class="product-grid-item-dietary"&gt;
+								&lt;p class="vegan">Vegan&lt;/p> + &lt;p class="gluten-free">Gluten-free&lt;/p&gt;
+							&lt;/div&gt; <!-- end of product-grid-item-dietary div -->
+						&lt;/div&gt; <!-- end of product-grid-item-description div -->
+					&lt;/div&gt; <!-- end of product-grid-item div -->
+
+					&lt;div class="product-grid-item-info"&gt;
+						&lt;h4&gt;Petals&lt;/h4&gt;
+						&lt;img src="img/vegan.png" alt="symbol to categorize this donut as vegan"&gt;
+						&lt;img src="img/gluten-free.png" alt="symbol to categorize this donut as glueten-free"&gt;
+					&lt;/div&gt;
+					
+					&lt;div class="product-grid-item-quantity"&gt;
+						&lt;button type="quantity">-&lt;/button&gt;
+						&lt;input type="number" placeholder="0" id="input-quantity" name="quantity" min="0"&gt;
+						&lt;button type="quantity">+&lt;/button&gt;
+					&lt;/div&gt;
+				&lt;/div&gt; <!-- end of product-grid-item-wrapper div -->
+					</code></pre>
+				</div>
+
+				<div class="css-code">
+					<p>CSS Code</p>
+					<pre><code>.product-grid-item&lcub;
+								margin:2.5rem 2.5rem 2.5rem 2.5rem;
+								&rcub;
+
+								#product-grid-item&lcub;
+									background-color:#FFB6D0;
+								&rcub;
+
+								.product-grid-wrapper&lcub;
+									display:grid;
+									grid-template-columns: repeat(3, 1fr);
+								&rcub;
+
+								.product-grid-item-wrapper&lcub;
+									display:flex;
+									flex-direction: column;
+									justify-content: center;
+									align-self: center;
+								&rcub;
+
+								.product-grid-item&lcub;
+									position:relative;
+									display:flex;
+									flex-direction: column;
+									justify-content: center;
+									align-content: center;
+									z-index: 0;
+								&rcub;
+
+								.product-grid-item img&lcub;
+									width: clamp(10vw,100%,50vw);
+									max-height: 100%;
+									margin:auto;
+								&rcub;
+
+								.product-grid-item-description&lcub;
+									position:absolute;
+									color:white;
+									width:100%;
+									height:100%;
+									border-radius: 10px;
+									text-align: center;
+									padding:5%;
+
+									display:flex;
+									flex-direction: column;
+									align-content: center;
+									justify-content: center;
+
+									opacity: 0;
+									transition: opacity .2s;
+								&rcub;
+
+								.product-grid-item-description p&lcub;
+									margin-top:0;
+								&rcub;
+
+								.product-grid-item-description:hover&lcub;
+									opacity: 1;
+
+									display:flex;
+									flex-direction: column;
+									align-content: center;
+									justify-content: center;
+
+									background-color: rgba(0,0,0,0.7);
+								&rcub;
+
+								.product-grid-item-dietary&lcub;
+									display:inline;
+								&rcub;
+
+								.vegan&lcub;
+									display:inline;
+									color:#64D9C2;
+								&rcub;
+
+								.gluten-free&lcub;
+									display:inline;
+									color:#FFF5C0;
+								&rcub;
+
+								.product-grid-item-info&lcub;
+									display:flex;
+									justify-content: center;
+									align-content: center;
+								&rcub;
+								.product-grid-item-info img&lcub;
+									align-self: center;
+									margin-left:.5rem;
+								&rcub;
+
+								.product-grid-item-quantity&lcub;
+									display: flex;
+									justify-content: center;
+									align-items: center;
+								&rcub;
+
+								input[type="number"]&lcub;
+									font-family:"ubuntu mono", monospace;
+
+									text-align: center;
+
+									margin-top:0;
+									padding:.5rem;
+									width:3rem;
+									margin:0 .5rem;
+
+									border-radius:5px;
+									border: 1px solid #CCC;
+
+									box-shadow: none;
+								&rcub;
+
+								input[type="number"]::placeholder&lcub;
+									color:#ddd;
+								&rcub;
+
+								input[type=number]::-webkit-inner-spin-button, 
+								input[type=number]::-webkit-outer-spin-button&lcub; 
+								  -webkit-appearance: none;
+								&rcub;
+
+								button[type="quantity"]&lcub;
+									font-family:"ubuntu mono", monospace;
+									font-weight:bold;
+									font-size:1rem;
+									color:black;
+
+									width:2rem;
+									height:2rem;
+									border:none;
+									border-radius: 50%;
+									padding:0rem;
+									background-color:#FED10A;
+									box-shadow:none;
+									margin-right:0;
+
+									transition: transform .2s; /* Animation */
+								&rcub;
+
+								button[type="quantity"]:hover&lcub;
+									transform:scale(1.15);
+								&rcub;</code></pre>
+				</div>
+			</div>
 		</section>
 
 		<section id="footer">
 			<h3>Footer</h3>
+			<p>Footer navigation that will be present at the bottom of the website pages. It will include all the miscellaneous links and credentials.</p>
 			<footer>
 
 			<div class="container-footer-1600">
-				<div class="footer-wrapper-grid"> <!-- grid just to add another row with the ©copyright -->
+				<div class="footer-grid-wrapper"> <!-- grid just to add another row with the ©copyright -->
 					<div class="footer-list-wrapper">
 
-						<div class="footer-icons"> 
+						<div class="footer-icons-wrapper"> 
 							<img class="dippd-logo" src="img/dippd-logo.png" alt="dippd donuts branding logo">
 							<a href="htttp://instagram.com">
 								<div class="footer-instagram-link">
@@ -924,12 +935,12 @@
 
 						<div class="divider-line"></div>
 
-						<div class="footer-location">
+						<div class="footer-location-wrapper">
 							<h5>Location</h5>
 							<p>Toronto, ON</p>
 						</div>
 
-						<div class="footer-hours">
+						<div class="footer-hours-wrapper">
 							<h5>Hours</h5>
 							<ul id="hours">
 								<li>Mon 10AM-5PM</li>
@@ -942,7 +953,7 @@
 							</ul>
 						</div>
 
-						<div class="footer-contact">
+						<div class="footer-contact-wrapper">
 							<h5>Contact</h5>
 							<ul id="contact">
 								<li><a href="#0">About Us</a></li>
@@ -951,21 +962,22 @@
 							</ul>
 						</div>
 
-						<div class="footer-help">
+						<div class="footer-help-wrapper">
 							<h5>Help</h5>
 							<ul id="help">
 								<li><a href="#0">FAQ</a></li>
 								<li><a href="#0">Privacy</a></li>
 								<li><a href="#0">TOS</a></li>
 								<li><a href="#0">References</a></li>
+								<li><a href="#0">Pattern Library</a></li>
 							</ul>
 						</div>
 					</div> <!-- end of footer-list-wrapper div -->
 
-					<div class="footer-copyright">
+					<div class="footer-copyright-wrapper">
 						<p>© Copyright 2021 Dipp’d Donuts. All rights reserved. Website proudly created by E-Donuts Team</p>
 					</div>
-				</div> <!-- end of footer-wrapper-grid div -->
+				</div> <!-- end of footer-grid-wrapper div -->
 			</div><!-- end of container-footer-1600 div -->
 			</footer>
 
@@ -974,10 +986,10 @@
 					<p>HTML Code</p>
 					<pre><code>&lt;footer&gt;
 						&lt;div class="container-footer-1600"&gt;
-						&lt;div class="footer-wrapper-grid"&gt;
+						&lt;div class="footer-grid-wrapper"&gt;
 						&lt;div class="footer-list-wrapper"&gt;
-						&lt;div class="footer-icons"&gt;
 
+						&lt;div class="footer-icons-wrapper"&gt;
 						&lt;img class="dippd-logo" src="img/dippd-logo.png" alt="dippd donuts branding logo"&gt;
 						&lt;ref="htttp://instagram.com"&gt;
 						&lt;src="img/instagram-icon.png" alt="Instagram logo that links to the dippd Instagram page"&gt;
@@ -986,12 +998,12 @@
 						&lt;/a&gt;
 						&lt;/div&gt;
 						
-						&lt;div class="footer-location&gt;
+						&lt;div class="footer-location-wrapper"&gt;
 						&lt;h5&gt;Locations&lt;/h5&gt;
 						&lt;p&gt;Torongo, ON&lt;/p&gt;
 						&lt;/div&gt;
 						
-						&lt;div class="footer-hours&gt;
+						&lt;div class="footer-hours-wrapper"&gt;
 						&lt;h5&gt;Hours&lt;/h5&gt;
 						&lt;ul id="hours"&gt;
 						&lt;li&gt;Mon 10AM-5PM&lt;/li&gt;
@@ -1004,7 +1016,7 @@
 						&lt;/ul&gt;
 						&lt;/div&gt;
 						
-						&lt;div class="footer-contact&gt;
+						&lt;div class="footer-contact-wrapper"&gt;
 						&lt;h5 id="contact"&gt;Contacts&lt;/h5&gt;
 						&lt;ul&gt;
 						&lt;li&gt;&lt;a href="#0"&gt;About Us&lt;/a&gt;&lt;/li&gt;
@@ -1013,7 +1025,7 @@
 						&lt;/ul&gt;
 						&lt;/div&gt;
 						
-						&lt;div class="footer-help&gt;
+						&lt;div class="footer-help-wrapper"&gt;
 						&lt;h5 id="help"&gt;Help&lt;/h5&gt;
 						&lt;ul&gt;
 						&lt;li&gt;&lt;a href="#0"&gt;FAQ&lt;/a&gt;&lt;/li&gt;
@@ -1024,10 +1036,10 @@
 						&lt;/div&gt;
 						&lt;/div&gt;&lt;!-- end of footer-list-wrapper div --&gt;
 						
-						&lt;div class="footer-copyright"&gt;
+						&lt;div class="footer-copyright-wrapper"&gt;
 						&lt;p&gt;© Copyright 2021 Dipp’d Donuts. All rights reserved. Website proudly created by E-Donuts Team&lt;/p&gt;
 						&lt;/div&gt;
-						&lt;/div&gt;&lt;!-- end of footer-wrapper-grid div --&gt;
+						&lt;/div&gt;&lt;!-- end of footer-grid-wrapper div --&gt;
 						&lt;/div&gt;&lt;!-- end of container-footer-1600 div --&gt;
 
 						&lt;/footer&gt;
@@ -1036,13 +1048,13 @@
 
 				<div class="css-code">
 					<p>CSS Code</p>
-					<pre><code>.footer-wrapper-grid&lcub;
+					<pre><code>.footer-grid-wrapper&lcub;
 							color:white;
 							display:grid;
 							grid-template-rows:3fr 1fr;
 						&rcub;
 
-						.footer-copyright&lcub;
+						.footer-copyright-wrapper&lcub;
 							text-align:center;
 							grid-row:2;
 							display:flex;
@@ -1052,7 +1064,7 @@
 							background-color:#6339A1;
 						&rcub;
 
-						.footer-copyright p&lcub;
+						.footer-copyright-wrapper p&lcub;
 							font-size:.75rem;
 							width:clamp(45ch,50%,75ch);
 						&rcub;
@@ -1074,19 +1086,14 @@
 							text-decoration:underline;
 						&rcub;
 
-						.footer-icons a:hove&lcub;
+						.footer-icons-wrapper a:hover&lcub;
 							text-decoration:none;
 						&rcub;
 
-						.footer-wrapper-grid u&lcub;
+						.footer-grid-wrapper ul&lcub;
 							list-style-type:none;
 							margin:1rem 0;
 							padding:0;
-						&rcub;
-
-						.footer-list-wrapper h&lcub;
-							font-family:montserrat, sans-serif;
-							margin:0;
 						&rcub;
 
 						.footer-instagram-link&lcub;
@@ -1095,7 +1102,7 @@
 							align-items: center;
 						&rcub;
 
-						.footer-icons p&lcub;
+						.footer-icons-wrapper p&lcub;
 							display:inline;
 							font-family:montserrat, sans-serif;
 							margin-left:10px;
@@ -1105,7 +1112,7 @@
 							color:white;
 							text-decoration:none;
 						&rcub;
-						.footer-icons, .footer-location, .footer-hours, .footer-contact, .footer-help &lcub;
+						.footer-icons-wrapper, .footer-location-wrapper, .footer-hours-wrapper, .footer-contact-wrapper, .footer-help-wrapper&lcub;
 							display:flex;
 							flex-direction: column;
 						&rcub;
@@ -1326,7 +1333,7 @@
 				</div>
 
 				<div class="css-code">
-					<p>CSS Code:</p>
+					<p>CSS Code</p>
 					<pre><code>.checkout-product-preview-menu&lcub;
 							padding:2.5rem 6.25rem 2.5rem 2.5rem;
 							background:#6339A1;
