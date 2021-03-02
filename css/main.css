@@ -761,6 +761,78 @@ button[type="quantity"]:hover{
 	color:#84124F;
 }
 
+/* PRODUCT ORDER BOX DONUT COUNTER SECTION -------------------------------------------------------------------------------- */
+.product-order-donut-counters-wrapper{
+	background:#FFB6D0;
+	padding:2.5rem;
+	display:grid;
+	grid-template-columns:repeat(5,1fr);
+}
+
+.product-order-donut-counters-grid{
+	grid-column: 1/span 5;
+	display:grid;
+	grid-template-columns:repeat(5,1fr);
+	grid-template-rows:repeat(7, auto);
+}
+
+.product-order-donut-counters-grid h2{
+	grid-column: 1/span 5;
+	grid-row:1;
+	color:#84124F;
+	margin-bottom:0.5rem;
+}
+
+.product-order-donut-counters-grid h4{
+	grid-column:1;
+	grid-row:2;
+	margin-top:0;
+}
+
+.product-order-donut-counters-grid h3{
+	grid-column:1/span 3;
+	grid-row:3;
+	color:#84124F;
+	font-weight: bold;
+	margin-top:0;
+}
+
+.product-order-donut-counters-left{
+	grid-column:1;
+	grid-row:4;
+}
+
+.product-order-donut-counters-center{
+	grid-column:2;
+	grid-row:4;
+}
+
+.product-order-donut-counters-right{
+	grid-column:3;
+	grid-row:4;
+}
+
+.product-order-donut-counters-grid a{
+	grid-column:1/span 2;
+	grid-row:5;
+	margin-top:1rem;
+}
+
+.product-name{
+	display:flex;
+	margin: 0.5rem;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.product-name label{
+	font-family: ubuntu mono, monospace;
+	padding-right: 2rem;
+}
+
+.product-name input{
+	align-items: right;
+}
 
 
 /* TYPOGRAPHY SECTION -------------------------------------------------------------------------------- */ 
