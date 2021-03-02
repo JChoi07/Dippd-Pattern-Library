@@ -476,14 +476,18 @@ button[type="quantity"]:hover{
 
 .social-media-card-wrapper{
 	grid-column:1/2;
-	display:flex;
-	flex-direction:column;
-	box-shadow:.5rem .5rem black;
+	display:grid;
+	box-shadow:1rem 1rem black;
 }
 
 .social-media-card-text{
 	height:clamp(5rem, 100vw, 8.5rem);
-	margin:0.938rem 0.938rem 0.938rem 0.938rem;
+	padding:1rem;
+}
+
+
+.social-media-card-image{
+	width:100%;
 }
 
 .social-media-card-text p{
@@ -498,11 +502,11 @@ button[type="quantity"]:hover{
 	grid-template-columns: 4fr 0.5fr; 
 	background:#55D1B9;
 	align-items:center;
+	padding:0 1rem;
 }
 
 .social-media-card-tag{
 	grid-column:1/2;
-	margin-left:0.938rem;
 }
 
 .social-media-card-tag p{
