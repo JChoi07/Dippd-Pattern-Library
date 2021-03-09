@@ -590,6 +590,17 @@ button[type="quantity"]:hover{
 	background:#6339A1;
 }
 
+.top-checkout p{
+	font-family:montserrat, sans-serif;
+	font-weight:600;
+	font-size:1.125rem;
+	margin-left:1.25rem;
+}
+
+.top-checkout > .divider-line{
+	width:100%;
+}
+
 .bottom-checkout{
 	margin-top:1.5rem;
 }
@@ -713,8 +724,9 @@ button[type="quantity"]:hover{
 	color:#11362F;
 	grid-column-start: 9;
 	padding-left:0;
-	font-family: 'montserrat', sans-serif;
+	font-family: ubuntu mono, monospace;
 }
+
 
 .faq-question{
 	display:grid;
@@ -858,21 +870,21 @@ button[type="quantity"]:hover{
 	grid-row:1;
 	color:#84124F;
 	margin-bottom:0.5rem;
-	font-weight:bold;
+	font-weight:700;
 }
 
 .product-order-donut-counters-grid h4{
 	grid-column:1;
 	grid-row:2;
 	margin-top:0;
-	font-weight:bold;
+	font-weight:600;
 }
 
 .product-order-donut-counters-grid h3{
 	grid-column:1/span 3;
 	grid-row:3;
 	color:#84124F;
-	font-weight: bold;
+	font-weight: 600;
 	margin-top:0;
 }
 
